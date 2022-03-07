@@ -14,7 +14,6 @@ import firemerald.api.mcms.MCMSAPI;
 import firemerald.mechanimation.client.ClientProxy;
 import firemerald.mechanimation.common.CommonProxy;
 import firemerald.mechanimation.compat.ICompatProvider;
-import firemerald.mechanimation.compat.enderio.CompatProviderEnderIO;
 import firemerald.mechanimation.compat.galacticraft.core.CompatProviderGalacticraftCore;
 import firemerald.mechanimation.compat.galacticraft.planets.CompatProviderGalacticraftPlanets;
 import firemerald.mechanimation.compat.jei.CompatProviderJEI;
@@ -53,7 +52,6 @@ public class Main extends CoreModMainClass<CommonProxy> implements LoadingCallba
 			CompatProviderGalacticraftCore.INSTANCE,
 			CompatProviderGalacticraftPlanets.INSTANCE,
 			CompatProviderThermalExpansion.INSTANCE,
-			CompatProviderEnderIO.INSTANCE,
 			CompatProviderRF.INSTANCE,
 			CompatProviderMekanism.INSTANCE,
 			CompatProviderJEI.INSTANCE
