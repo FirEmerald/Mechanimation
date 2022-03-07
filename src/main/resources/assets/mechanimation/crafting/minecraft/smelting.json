@@ -5,7 +5,8 @@
 			"mechanimation_natural_metals"
 		],
 		"ingredient": {
-            "item": "#{METAL}_ORE"
+			"type": "forge:ore_dict",
+			"ore": "ore{Metal}"
 		},
 		"result": {
             "item": "#{METAL}_INGOT"
@@ -19,7 +20,8 @@
 				"vanilla_metals"
 			],
 			"ingredient": {
-				"item": "#{METAL}_DUST"
+				"type": "forge:ore_dict",
+				"ore": "dust{Metal}"
 			},
 			"result": {
 				"item": "minecraft:{metal}_ingot"
@@ -31,7 +33,8 @@
 				"mechanimation_metals"
 			],
 			"ingredient": {
-				"item": "#{METAL}_DUST"
+				"type": "forge:ore_dict",
+				"ore": "dust{Metal}"
 			},
 			"result": {
 				"item": "#{METAL}_INGOT"

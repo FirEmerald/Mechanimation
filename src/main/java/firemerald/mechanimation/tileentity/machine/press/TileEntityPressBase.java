@@ -45,7 +45,7 @@ public abstract class TileEntityPressBase<T extends TileEntityPressBase<T>> exte
     public static final ResourceLocation PRESS_GUI_TEXTURES = new ResourceLocation(MechanimationAPI.MOD_ID, "textures/gui/container/press.png");
     public static final String
 	ENERGY_INDEX_ENERGY = "energy",
-	ITEM_INDEX_INPUT = "input_primary",
+	ITEM_INDEX_INPUT = "input",
 	ITEM_INDEX_OUTPUT = "output";
     @SuppressWarnings("unchecked")
 	public static final ItemInventoryTemplate<? extends TileEntityPressBase<?>> ITEM_TEMPLATE = ((ItemInventoryTemplateBuilder<? extends TileEntityPressBase<?>>) new ItemInventoryTemplateBuilder<>())
