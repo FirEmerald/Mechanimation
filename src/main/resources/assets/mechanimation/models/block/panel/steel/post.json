@@ -1,0 +1,7 @@
+{
+    "parent": "block/iron_bars_post",
+    "textures": {
+        "particle": "mechanimation:blocks/metal_alloy/steel",
+        "bars": "mechanimation:blocks/metal_alloy/steel"
+    }
+}

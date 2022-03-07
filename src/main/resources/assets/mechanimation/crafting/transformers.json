@@ -1,0 +1,156 @@
+{
+	"vanilla_metals": {
+		"count": 2,
+		"metal": [
+			"iron",
+			"gold"
+		],
+		"metal_alt": [
+			"iron",
+			"golden"
+		],
+		"Metal": [
+			"Iron",
+			"Gold"
+		],
+		"METAL": [
+			"IRON",
+			"GOLD"
+		]
+	},
+	"mechanimation_metals": {
+		"count": 8,
+		"metal": [
+			"nickel",
+			"copper",
+			"aluminum",
+			"tin",
+			"silver",
+			"tungsten",
+			"titanium",
+			"steel"
+		],
+		"Metal": [
+			"Nickel",
+			"Copper",
+			"Aluminum",
+			"Tin",
+			"Silver",
+			"Tungsten",
+			"Titanium",
+			"Steel"
+		],
+		"METAL": [
+			"NICKEL",
+			"COPPER",
+			"ALUMINUM",
+			"TIN",
+			"SILVER",
+			"TUNGSTEN",
+			"TITANIUM",
+			"STEEL"
+		]
+	},
+	"mechanimation_natural_metals": {
+		"count": 7,
+		"metal": [
+			"nickel",
+			"copper",
+			"aluminum",
+			"tin",
+			"silver",
+			"tungsten",
+			"titanium"
+		],
+		"Metal": [
+			"Nickel",
+			"Copper",
+			"Aluminum",
+			"Tin",
+			"Silver",
+			"Tungsten",
+			"Titanium"
+		],
+		"METAL": [
+			"NICKEL",
+			"COPPER",
+			"ALUMINUM",
+			"TIN",
+			"SILVER",
+			"TUNGSTEN",
+			"TITANIUM"
+		],
+		"exp": [
+			1.0,
+			0.6,
+			0.6,
+			0.7,
+			0.9,
+			1.0,
+			0.5
+		]
+	},
+	"mechanimation_decorated_metals": {
+		"count": 2,
+		"metal": [
+			"titanium",
+			"steel"
+		],
+		"Metal": [
+			"Titanium",
+			"Steel"
+		],
+		"METAL": [
+			"TITANIUM",
+			"STEEL"
+		]
+	},
+	"colors": {
+		"count": 16,
+		"color": [
+			"white",
+			"orange",
+			"magenta",
+			"light_blue",
+			"yellow",
+			"lime",
+			"pink",
+			"gray",
+			"silver",
+			"cyan",
+			"purple",
+			"blue",
+			"brown",
+			"green",
+			"red",
+			"black"
+		],
+		"Color": [
+			"White",
+			"Orange",
+			"Magenta",
+			"LightBlue",
+			"Yellow",
+			"Lime",
+			"Pink",
+			"Gray",
+			"LightGray",
+			"Cyan",
+			"Purple",
+			"Blue",
+			"Brown",
+			"Green",
+			"Red",
+			"Black"
+		]
+	},
+	"pipe_tiers": {
+		"count": 4,
+		"pipe_tier": [
+			"stone",
+			"iron",
+			"steel",
+			"titanium"
+		]
+	}
+}

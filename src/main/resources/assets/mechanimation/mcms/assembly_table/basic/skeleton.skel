@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root"/>
+    <bone name="test1">
+        <bone name="test2" tY="1.0">
+            <bone name="test3" tY="1.0">
+                <bone name="test4" tY="1.0"/>
+            </bone>
+        </bone>
+    </bone>
+    <bone name="new bone"/>
+</skeleton>

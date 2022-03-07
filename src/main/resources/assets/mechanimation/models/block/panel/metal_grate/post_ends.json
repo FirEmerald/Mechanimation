@@ -1,0 +1,7 @@
+{
+    "parent": "block/iron_bars_post_ends",
+    "textures": {
+        "particle": "mechanimation:blocks/metal_grate",
+        "edge": "mechanimation:blocks/metal_grate"
+    }
+}

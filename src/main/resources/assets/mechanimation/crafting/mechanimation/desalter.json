@@ -1,0 +1,14 @@
+{
+	"crude_oil": {
+		"type": "mechanimation:desalting",
+		"water_amount": 1,
+		"input_fluid": {
+			"fluid": "crude_oil",
+			"amount": 1
+		},
+		"output_fluid": {
+			"fluid": "desalted_crude_oil",
+			"amount": 1
+		}
+	}
+}

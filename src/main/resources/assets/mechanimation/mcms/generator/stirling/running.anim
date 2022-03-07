@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="1.0" loop="true" relative="false">
+    <frame frameTime="0.25">
+        <bone boneName="piston_arm" rX="-100.0" rotation="euler_zyx" tX="0.1875" tZ="0.125"/>
+    </frame>
+    <frame frameTime="0.5">
+        <bone boneName="wheel" tX="-0.125" tY="0.5625" tZ="0.25"/>
+        <bone boneName="piston_arm" rX="-180.0" rotation="euler_zyx" tX="0.1875" tZ="0.125"/>
+    </frame>
+    <frame frameTime="0.75">
+        <bone boneName="piston_arm" rX="100.0" rotation="euler_zyx" tX="0.1875" tZ="0.125"/>
+    </frame>
+    <frame frameTime="1.0">
+        <bone boneName="wheel" rX="180.0" rotation="euler_zyx" tX="-0.125" tY="0.5625" tZ="0.25"/>
+        <bone boneName="piston_arm" tX="0.1875" tZ="0.125"/>
+    </frame>
+</animation>

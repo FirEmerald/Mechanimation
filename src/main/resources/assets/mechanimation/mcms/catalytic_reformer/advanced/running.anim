@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="2.0" loop="true" relative="false">
+    <frame frameTime="0.0">
+        <bone boneName="rod"/>
+    </frame>
+    <frame frameTime="1.0">
+        <bone boneName="rod" rY="180.0" rotation="euler_zyx"/>
+    </frame>
+    <frame frameTime="2.0">
+        <bone boneName="rod" qW="-1.0" qX="0.0" qY="0.0" qZ="0.0" rotation="quaternion"/>
+    </frame>
+</animation>

@@ -1,0 +1,6 @@
+{
+	"ingredients": {
+		"subtyped": "firemerald.mechanimation.util.crafting.VariantIngredientFactory",
+		"pipe": "firemerald.mechanimation.util.crafting.PipeIngredientFactory"
+	}
+}

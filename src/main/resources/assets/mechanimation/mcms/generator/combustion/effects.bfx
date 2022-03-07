@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<effects>
+    <bone name="main">
+        <fluid index="0" margin="2.4414062E-4" name="fuel" sizeX="0.3125" sizeY="0.375" sizeZ="0.75" tX="-0.5" tY="0.0625" tZ="-0.5"/>
+    </bone>
+</effects>

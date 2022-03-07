@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side_alt",
+    "textures": {
+        "edge": "mechanimation:blocks/reinforced_glass_pane_top",
+        "pane": "mechanimation:blocks/reinforced_glass"
+    }
+}

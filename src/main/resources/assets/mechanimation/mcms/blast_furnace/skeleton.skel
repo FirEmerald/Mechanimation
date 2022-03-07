@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root">
+        <bone name="main" rY="180.0" rotation="euler_zyx">
+            <bone name="particle_exhaust" tY="2.0"/>
+        </bone>
+    </bone>
+</skeleton>

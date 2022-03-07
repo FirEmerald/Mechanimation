@@ -1,0 +1,12 @@
+{
+	"parent": "mechanimation:block/slab/slab",
+	"textures": {
+		"north": "#bottom",
+		"east": "#side",
+		"south": "#top",
+		"west": "#side",
+		"up": "#side",
+		"down": "#side",
+		"particle": "#side"
+	}
+}

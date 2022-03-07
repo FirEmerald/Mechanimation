@@ -1,0 +1,11 @@
+{
+    "variants": {
+		"normal":  { "model": "mechanimation:slab/metal_grate/slab", "y": 90, "uvlock": true },
+		"direction=up":  { "model": "mechanimation:slab/metal_grate/slab", "x": 180, "uvlock": true },
+		"direction=down":  { "model": "mechanimation:slab/metal_grate/slab", "uvlock": true },
+		"direction=south":  { "model": "mechanimation:slab/metal_grate/slab", "x": 90, "uvlock": true },
+		"direction=west":  { "model": "mechanimation:slab/metal_grate/slab", "x": 90, "y": 90, "uvlock": true },
+		"direction=north":  { "model": "mechanimation:slab/metal_grate/slab", "x": 90, "y": 180, "uvlock": true },
+		"direction=east":  { "model": "mechanimation:slab/metal_grate/slab", "x": 90, "y": 270, "uvlock": true }
+    }
+}

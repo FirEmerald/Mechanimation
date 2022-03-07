@@ -1,0 +1,16 @@
+{
+	"naphtha": {
+		"type": "mechanimation:treating",
+		"hydrogen_amount": 1,
+		"input_fluid": {
+			"isGas": true,
+			"fluid": "untreated_naphtha",
+			"amount": 10
+		},
+		"output_fluid": {
+			"isGas": true,
+			"fluid": "naphtha",
+			"amount": 10
+		}
+	}
+}

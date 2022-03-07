@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root" rY="90.0" rotation="euler_zyx" tY="0.125">
+        <bone name="arc_rod_right" rX="45.0" rotation="euler_zyx" tY="0.78125" tZ="0.4375">
+            <bone name="arc_rod_right_rod" rX="-34.0" rotation="euler_zyx" tZ="-0.1875"/>
+            <bone name="vfx_right" tZ="-0.21875"/>
+        </bone>
+        <bone name="arc_rod_left" rX="45.0" rY="180.0" rotation="euler_zyx" tY="0.78125" tZ="-0.4375">
+            <bone name="arc_rod_left_rod" rX="-34.0" rotation="euler_zyx" tZ="-0.1875"/>
+            <bone name="vfx_left" tZ="-0.21875"/>
+        </bone>
+        <bone name="arc_rod_back" rX="45.0" rY="90.0" rotation="euler_zyx" tX="0.4375" tY="0.78125">
+            <bone name="arc_rod_back_rod" rX="-34.0" rotation="euler_zyx" tZ="-0.1875"/>
+            <bone name="vfx_back" tZ="-0.21875"/>
+        </bone>
+        <bone name="vfx_center" tY="0.78125"/>
+    </bone>
+</skeleton>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="5.0" loop="true" relative="false">
+    <frame frameTime="0.0">
+        <bone boneName="Piston" tY="-0.25"/>
+    </frame>
+    <frame frameTime="0.5">
+        <bone boneName="Piston" tY="-0.4375"/>
+    </frame>
+    <frame frameTime="2.5">
+        <bone boneName="Piston" tY="-0.25"/>
+    </frame>
+    <frame frameTime="3.0">
+        <bone boneName="Piston" tY="-0.5"/>
+    </frame>
+    <frame frameTime="5.0">
+        <bone boneName="Piston" tY="-0.25"/>
+    </frame>
+</animation>

@@ -1,0 +1,20 @@
+{
+	"gasoline": {
+		"type": "mechanimation:reforming",
+		"energy": 160,
+		"input_fluid": {
+			"isGas": true,
+			"fluid": "naphtha",
+			"amount": 10
+		},
+		"output_fluid_primary": {
+			"fluid": "gasoline",
+			"amount": 10
+		},
+		"output_fluid_secondary": {
+			"isGas": true,
+			"fluid": "hydrogen",
+			"amount": 1
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"crude_oil": {
+		"type": "mechanimation:distilling",
+		"energy": 500,
+		"input_fluid": {
+			"fluid": "desalted_crude_oil",
+			"amount": 25
+		},
+		"output_fluid_top": {
+			"isGas": true,
+			"fluid": "fuel_gas",
+			"amount": 3
+		},
+		"output_fluid_upper": {
+			"isGas": true,
+			"fluid": "untreated_naphtha",
+			"amount": 11
+		},
+		"output_fluid_middle": {
+			"fluid": "kerosene",
+			"amount": 8
+		},
+		"output_fluid_bottom": {
+			"fluid": "tar",
+			"amount": 3
+		}
+	}
+}

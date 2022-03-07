@@ -1,0 +1,14 @@
+{
+	"sulfur": {
+		"type": "mechanimation:processing",
+		"oxygen_amount": 25,
+		"input_fluid": {
+			"isGas": true,
+			"fluid": "hydrogen_sulfide",
+			"amount": 50
+		},
+		"output_item": {
+			"item": "#SULFUR"
+		}
+	}
+}

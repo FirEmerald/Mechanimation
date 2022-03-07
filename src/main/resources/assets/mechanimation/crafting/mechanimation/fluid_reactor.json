@@ -1,0 +1,210 @@
+{
+	"nitroglycerin": {
+		"type": "mechanimation:reacting",
+		"seconds": 0.003,
+		"input_fluid_primary": {
+			"fluid": "sulfuric_acid",
+			"amount": 1
+		},
+		"input_fluid_secondary": {
+			"fluid": "nitric_acid",
+			"amount": 1
+		},
+		"input_fluid_tertiary": {
+			"fluid": "glycerol",
+			"amount": 1
+		},
+		"output_fluid": {
+			"fluid": "nitroglycerin",
+			"amount": 3
+		}
+	},
+	"guncotton": {
+		"type": "mechanimation:reacting",
+		"seconds": 0.1,
+		"input_fluid_primary": {
+			"fluid": "nitric_acid",
+			"amount": 100
+		},
+		"input_item": {
+			"type": "forge:ore_dict",
+			"ore": "paper",
+			"count": 2
+		},
+		"output_item": {
+			"item": "#GUNCOTTON"
+		}
+	},
+	"tnt": {
+		"type": "mechanimation:reacting",
+		"seconds": 0.1,
+		"input_fluid_primary": {
+			"fluid": "nitroglycerin",
+			"amount": 100
+		},
+		"input_item": {
+			"type": "forge:ore_dict",
+			"ore": "sand"
+		},
+		"output_item": {
+			"item": "minecraft:tnt"
+		}
+	},
+	"obsidian": {
+		"type": "mechanimation:reacting",
+		"seconds": 1,
+		"input_fluid_primary": {
+			"fluid": "water",
+			"amount": 0
+		},
+		"input_fluid_secondary": {
+			"fluid": "lava",
+			"amount": 1000
+		},
+		"output_item": {
+			"item": "minecraft:obsidian"
+		}
+	},
+	"molten_steel": {
+		"type": "mechanimation:reacting",
+		"seconds": 0.144,
+		"input_fluid_primary": {
+			"fluid": "iron",
+			"amount": 144
+		},
+		"input_item": {
+			"type": "forge:ore_dict",
+			"ore": "dustCoal"
+		},
+		"output_fluid": {
+			"fluid": "steel",
+			"amount": 144
+		}
+	},
+	"water": {
+		"type": "mechanimation:reacting",
+		"seconds": 0.002,
+		"input_fluid_primary": [
+			{
+				"isGas": "false",
+				"fluid": "oxygen",
+				"amount": 1
+			},
+			{
+				"isGas": "true",
+				"fluid": "oxygen",
+				"amount": 1
+			}
+		],
+		"input_fluid_secondary": [
+			{
+				"isGas": "false",
+				"fluid": "hydrogen",
+				"amount": 2
+			},
+			{
+				"isGas": "true",
+				"fluid": "hydrogen",
+				"amount": 2
+			}
+		],
+		"output_fluid": {
+			"fluid": "water",
+			"amount": 2
+		}
+	},
+	"asphalt": {
+		"type": "mechanimation:reacting",
+		"seconds": 0.05,
+		"input_fluid_primary": {
+			"fluid": "tar",
+			"amount": 50
+		},
+		"input_item": {
+			"type": "forge:ore_dict",
+			"ore": "gravel"
+		},
+		"output_item": {
+			"item": "mechanimation:asphalt"
+		}
+	},
+	"mirror": {
+		"type": "mechanimation:reacting",
+		"seconds": 0.144,
+		"input_fluid_primary": [
+			{
+				"fluid": "tin",
+				"amount": 144
+			},
+			{
+				"fluid": "silver",
+				"amount": 144
+			}
+		],
+		"input_item": [
+			{
+				"type": "forge:ore_dict",
+				"ore": "paneGlassColorless"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "paneGlassWhite"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "paneGlassLightGray"
+			}
+		],
+		"output_item": {
+			"item": "#MIRROR"
+		}
+	},
+	"glycerol": {
+		"type": "mechanimation:reacting",
+		"seconds": 0.5,
+		"input_fluid_primary": {
+			"fluid": "water",
+			"amount": 500
+		},
+		"input_item": [
+			{
+				"item": "minecraft:beef"
+			},
+			{
+				"item": "minecraft:mutton"
+			}
+		],
+		"output_fluid": {
+			"fluid": "glycerol",
+			"amount": 500
+		},
+		"output_item": {
+			"item": "#SOAP"
+		}
+	},
+	"brine": {
+		"type": "mechanimation:reacting",
+		"conditions": [
+			{
+				"type": "mechanimation:ingredient_exists",
+				"ingredient": {
+					"type": "forge:ore_dict",
+					"ore": "dustSalt"
+				}
+			}
+		],
+		"seconds": 1,
+		"input_fluid_primary": {
+			"fluid": "water",
+			"amount": 1000
+		},
+		"input_item": {
+			"type": "forge:ore_dict",
+			"ore": "dustSalt"
+		},
+		"output_fluid": {
+			"fluid": "brine",
+			"amount": 1000
+		}
+	}
+}

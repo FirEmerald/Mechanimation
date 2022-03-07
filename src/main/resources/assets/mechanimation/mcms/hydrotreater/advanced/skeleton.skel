@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root">
+        <bone name="main"/>
+        <bone name="spindle" tX="0.3125" tY="0.1875" tZ="-0.1875"/>
+    </bone>
+</skeleton>

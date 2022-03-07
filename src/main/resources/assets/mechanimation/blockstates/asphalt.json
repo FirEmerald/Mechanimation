@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "mechanimation:asphalt" },
+            { "model": "mechanimation:asphalt", "y": 90 },
+            { "model": "mechanimation:asphalt", "y": 180 },
+            { "model": "mechanimation:asphalt", "y": 270 },
+            { "model": "mechanimation:asphalt", "x": 90 },
+            { "model": "mechanimation:asphalt", "x": 90, "y": 90 },
+            { "model": "mechanimation:asphalt", "x": 90, "y": 180 },
+            { "model": "mechanimation:asphalt", "x": 90, "y": 270 },
+            { "model": "mechanimation:asphalt", "x": 180 },
+            { "model": "mechanimation:asphalt", "x": 180, "y": 90 },
+            { "model": "mechanimation:asphalt", "x": 180, "y": 180 },
+            { "model": "mechanimation:asphalt", "x": 180, "y": 270 },
+            { "model": "mechanimation:asphalt", "x": 270 },
+            { "model": "mechanimation:asphalt", "x": 270, "y": 90 },
+            { "model": "mechanimation:asphalt", "x": 270, "y": 180 },
+            { "model": "mechanimation:asphalt", "x": 270, "y": 270 }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="12.0" loop="true" relative="false">
+    <frame frameTime="0.0">
+        <bone boneName="tray" tY="0.46875"/>
+        <bone boneName="arm" rX="-30.0" rotation="euler_zyx" tY="0.03125" tZ="0.40625"/>
+    </frame>
+    <frame frameTime="6.0">
+        <bone boneName="worktable" tY="0.3125"/>
+        <bone boneName="piston" tY="0.5625"/>
+    </frame>
+    <frame frameTime="8.0">
+        <bone boneName="worktable" tY="0.3125"/>
+        <bone boneName="piston" tY="0.5625"/>
+    </frame>
+    <frame frameTime="12.0">
+        <bone boneName="worktable" tY="0.125"/>
+        <bone boneName="piston" tY="0.75"/>
+    </frame>
+</animation>

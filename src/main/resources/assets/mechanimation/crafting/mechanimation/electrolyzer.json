@@ -1,0 +1,38 @@
+{
+	"water": {
+		"type": "mechanimation:electrolyzing",
+		"energy": 160,
+		"input_fluid": {
+			"fluid": "water",
+			"amount": 2
+		},
+		"output_fluid_primary": {
+			"isGas": true,
+			"fluid": "oxygen",
+			"amount": 1
+		},
+		"output_fluid_secondary": {
+			"isGas": true,
+			"fluid": "hydrogen",
+			"amount": 2
+		}
+	},
+	"brine": {
+		"type": "mechanimation:electrolyzing",
+		"energy": 800,
+		"input_fluid": {
+			"fluid": "brine",
+			"amount": 10
+		},
+		"output_fluid_primary": {
+			"isGas": true,
+			"fluid": "sodium",
+			"amount": 1
+		},
+		"output_fluid_secondary": {
+			"isGas": true,
+			"fluid": "chlorine",
+			"amount": 1
+		}
+	}
+}

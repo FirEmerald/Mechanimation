@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="1.0" loop="true" relative="false">
+    <frame frameTime="0.0">
+        <bone boneName="piston_2" tX="0.125" tY="-0.0625"/>
+        <bone boneName="piston_1" tX="0.125" tY="-0.0625"/>
+    </frame>
+    <frame frameTime="0.125">
+        <bone boneName="piston_2" tX="0.125"/>
+        <bone boneName="piston_1" tX="0.125" tY="-0.125"/>
+    </frame>
+    <frame frameTime="0.25">
+        <bone boneName="gear_1" rZ="-90.0" rotation="euler_zyx" tX="0.140625" tY="0.21875" tZ="0.0625"/>
+        <bone boneName="gear_2" rX="67.5" rotation="euler_zyx" tX="-0.15625" tY="0.21875" tZ="0.359375"/>
+        <bone boneName="piston_2" tX="0.125" tY="-0.0625"/>
+        <bone boneName="piston_1" tX="0.125" tY="-0.0625"/>
+    </frame>
+    <frame frameTime="0.375">
+        <bone boneName="piston_2" tX="0.125" tY="-0.125"/>
+        <bone boneName="piston_1" tX="0.125"/>
+    </frame>
+    <frame frameTime="0.5">
+        <bone boneName="gear_1" tX="0.140625" tY="0.21875" tZ="0.0625"/>
+        <bone boneName="gear_2" rX="-22.5" rotation="euler_zyx" tX="-0.15625" tY="0.21875" tZ="0.359375"/>
+        <bone boneName="piston_2" tX="0.125" tY="-0.0625"/>
+        <bone boneName="piston_1" tX="0.125" tY="-0.0625"/>
+    </frame>
+    <frame frameTime="0.625">
+        <bone boneName="piston_2" tX="0.125"/>
+        <bone boneName="piston_1" tX="0.125" tY="-0.125"/>
+    </frame>
+    <frame frameTime="0.75">
+        <bone boneName="gear_1" rZ="90.0" rotation="euler_zyx" tX="0.140625" tY="0.21875" tZ="0.0625"/>
+        <bone boneName="gear_2" rX="-112.5" rotation="euler_zyx" tX="-0.15625" tY="0.21875" tZ="0.359375"/>
+        <bone boneName="piston_2" tX="0.125" tY="-0.0625"/>
+        <bone boneName="piston_1" tX="0.125" tY="-0.0625"/>
+    </frame>
+    <frame frameTime="0.8749999">
+        <bone boneName="piston_2" tX="0.125" tY="-0.125"/>
+        <bone boneName="piston_1" tX="0.125"/>
+    </frame>
+    <frame frameTime="1.0">
+        <bone boneName="gear_1" rZ="180.0" rotation="euler_zyx" tX="0.140625" tY="0.21875" tZ="0.0625"/>
+        <bone boneName="gear_2" rX="157.5" rotation="euler_zyx" tX="-0.15625" tY="0.21875" tZ="0.359375"/>
+        <bone boneName="piston_2" tX="0.125" tY="-0.0625"/>
+        <bone boneName="piston_1" tX="0.125" tY="-0.0625"/>
+    </frame>
+</animation>

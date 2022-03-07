@@ -1,0 +1,210 @@
+{
+	"gasoline": {
+		"type": "mechanimation:combusting",
+		"speed": 1,
+		"ticks_per_millibucket": 5,
+		"input_fluid": {
+			"fluid": "gasoline",
+			"amount": 1
+		}
+	},
+	"propane": {
+		"type": "mechanimation:combusting",
+		"speed": 0.9,
+		"ticks_per_millibucket": 5,
+		"input_fluid": {
+			"isGas": true,
+			"fluid": "propane",
+			"amount": 1
+		}
+	},
+	"bc_fuel": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "buildcraftenergy"
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 0.83,
+		"ticks_per_millibucket": 3,
+		"input_fluid": {
+			"fluid": "fuel",
+			"amount": 1
+		}
+	},
+	"non_bc_fuel": {
+		"conditions": [
+			{
+				"type": "forge:not",
+				"value": {
+					"type": "forge:mod_loaded",
+					"modid": "buildcraftenergy"
+				}
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 2,
+		"ticks_per_millibucket": 3,
+		"input_fluid": {
+			"fluid": "fuel",
+			"amount": 1
+		}
+	},
+	"rocket_fuel": {
+		"type": "mechanimation:combusting",
+		"speed": 2,
+		"ticks_per_millibucket": 3,
+		"input_fluid": [
+			{
+				"fluid": "rocket_fuel",
+				"amount": 1
+			},
+			{
+				"fluid": "fuelgc",
+				"amount": 1
+			}
+		]
+	},
+	"kerosene": {
+		"type": "mechanimation:combusting",
+		"speed": 0.85,
+		"ticks_per_millibucket": 5,
+		"input_fluid": {
+			"fluid": "kerosene",
+			"amount": 1
+		}
+	},
+	"nitroglycerin": {
+		"type": "mechanimation:combusting",
+		"speed": 3,
+		"ticks_per_millibucket": 1,
+		"input_fluid": {
+			"fluid": "nitroglycerin",
+			"amount": 1
+		}
+	},
+	"hydrogen": {
+		"type": "mechanimation:combusting",
+		"speed": 0.1,
+		"ticks_per_millibucket": 1,
+		"input_fluid": [
+			{
+				"isGas": true,
+				"fluid": "hydrogen",
+				"amount": 1
+			},
+			{
+				"isGas": false,
+				"fluid": "hydrogen",
+				"amount": 1
+			}
+		]
+	},
+	"ethylene": {
+		"conditions": [
+			{
+				"type": "mechanimation:gas_exists",
+				"gas": "ethylene"
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 0.3,
+		"ticks_per_millibucket": 5,
+		"input_fluid": {
+			"isGas": true,
+			"fluid": "ethylene",
+			"amount": 1
+		}
+	},
+	"gaseous_fuel": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "buildcraftenergy"
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 0.8125,
+		"ticks_per_millibucket": 1,
+		"input_fluid": {
+			"fluid": "fuel_gaseous",
+			"amount": 1
+		}
+	},
+	"light_fuel": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "buildcraftenergy"
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 0.625,
+		"ticks_per_millibucket": 5,
+		"input_fluid": {
+			"fluid": "fuel_light",
+			"amount": 1
+		}
+	},
+	"dense_fuel": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "buildcraftenergy"
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 0.625,
+		"ticks_per_millibucket": 16,
+		"input_fluid": {
+			"fluid": "fuel_dense",
+			"amount": 1
+		}
+	},
+	"refined_fuel": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "thermalfoundation"
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 1.25,
+		"ticks_per_millibucket": 6,
+		"input_fluid": {
+			"fluid": "refined_fuel",
+			"amount": 1
+		}
+	},
+	"grassoline": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "thermalfoundation"
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 0.78125,
+		"ticks_per_millibucket": 4,
+		"input_fluid": {
+			"fluid": "refined_biofuel",
+			"amount": 1
+		}
+	},
+	"gc_methane": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "galacticraftplanets"
+			}
+		],
+		"type": "mechanimation:combusting",
+		"speed": 0.2,
+		"ticks_per_millibucket": 1,
+		"input_fluid": {
+			"fluid": "liquidmethane",
+			"amount": 1
+		}
+	}
+}

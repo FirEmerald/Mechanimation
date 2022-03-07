@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<effects>
+    <bone name="base">
+        <fluid index="3" margin="2.4414062E-4" name="brine" sizeX="0.625" sizeY="0.4375" sizeZ="0.875" tX="-0.1875" tY="0.0625" tZ="-0.4375"/>
+        <fluid index="0" margin="2.4414062E-4" name="oil" sizeX="0.625" sizeY="0.4375" sizeZ="0.875" tX="-0.1875" tY="0.5" tZ="-0.4375"/>
+    </bone>
+</effects>

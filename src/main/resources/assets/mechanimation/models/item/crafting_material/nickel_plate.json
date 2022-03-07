@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "mechanimation:items/material/nickel_plate"
+    }
+}

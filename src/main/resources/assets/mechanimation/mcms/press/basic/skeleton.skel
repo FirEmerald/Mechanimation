@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root">
+        <bone name="tray" tY="0.46875" tZ="0.875">
+            <bone name="arm" rX="-4.0" rotation="euler_zyx" tY="0.03125" tZ="0.40625"/>
+        </bone>
+        <bone name="piston" tY="0.75"/>
+        <bone name="worktable" tY="0.125"/>
+    </bone>
+</skeleton>

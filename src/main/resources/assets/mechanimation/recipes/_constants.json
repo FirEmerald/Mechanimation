@@ -1,0 +1,521 @@
+[
+    {
+        "name": "COAL_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "coal_dust"
+        }
+    },
+    {
+        "name": "IRON_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "iron_dust"
+        }
+    },
+    {
+        "name": "GOLD_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "gold_dust"
+        }
+    },
+    {
+        "name": "NICKEL_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "nickel_dust"
+        }
+    },
+    {
+        "name": "COPPER_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "copper_dust"
+        }
+    },
+    {
+        "name": "ALUMINUM_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "aluminum_dust"
+        }
+    },
+    {
+        "name": "TIN_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "tin_dust"
+        }
+    },
+    {
+        "name": "SILVER_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "silver_dust"
+        }
+    },
+    {
+        "name": "TUNGSTEN_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "tungsten_dust"
+        }
+    },
+    {
+        "name": "TITANIUM_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "titanium_dust"
+        }
+    },
+    {
+        "name": "STEEL_DUST",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "steel_dust"
+        }
+    },
+    {
+        "name": "NICKEL_NUGGET",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "nickel_nugget"
+        }
+    },
+    {
+        "name": "COPPER_NUGGET",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "copper_nugget"
+        }
+    },
+    {
+        "name": "ALUMINUM_NUGGET",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "aluminum_nugget"
+        }
+    },
+    {
+        "name": "TIN_NUGGET",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "tin_nugget"
+        }
+    },
+    {
+        "name": "SILVER_NUGGET",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "silver_nugget"
+        }
+    },
+    {
+        "name": "TUNGSTEN_NUGGET",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "tungsten_nugget"
+        }
+    },
+    {
+        "name": "TITANIUM_NUGGET",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "titanium_nugget"
+        }
+    },
+    {
+        "name": "STEEL_NUGGET",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "steel_nugget"
+        }
+    },
+    {
+        "name": "NICKEL_INGOT",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "nickel_ingot"
+        }
+    },
+    {
+        "name": "COPPER_INGOT",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "copper_ingot"
+        }
+    },
+    {
+        "name": "ALUMINUM_INGOT",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "aluminum_ingot"
+        }
+    },
+    {
+        "name": "TIN_INGOT",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "tin_ingot"
+        }
+    },
+    {
+        "name": "SILVER_INGOT",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "silver_ingot"
+        }
+    },
+    {
+        "name": "TUNGSTEN_INGOT",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "tungsten_ingot"
+        }
+    },
+    {
+        "name": "TITANIUM_INGOT",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "titanium_ingot"
+        }
+    },
+    {
+        "name": "STEEL_INGOT",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "steel_ingot"
+        }
+    },
+    {
+        "name": "IRON_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "iron_plate"
+        }
+    },
+    {
+        "name": "GOLD_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "gold_plate"
+        }
+    },
+    {
+        "name": "NICKEL_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "nickel_plate"
+        }
+    },
+    {
+        "name": "COPPER_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "copper_plate"
+        }
+    },
+    {
+        "name": "ALUMINUM_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "aluminum_plate"
+        }
+    },
+    {
+        "name": "TIN_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "tin_plate"
+        }
+    },
+    {
+        "name": "SILVER_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "silver_plate"
+        }
+    },
+    {
+        "name": "TUNGSTEN_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "tungsten_plate"
+        }
+    },
+    {
+        "name": "TITANIUM_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "titanium_plate"
+        }
+    },
+    {
+        "name": "STEEL_PLATE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "steel_plate"
+        }
+    },
+    {
+        "name": "CARBON_FIBER",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "carbon_fiber"
+        }
+    },
+    {
+        "name": "COPPER_WIRE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "copper_wire"
+        }
+    },
+    {
+        "name": "MOTOR",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "motor"
+        }
+    },
+    {
+        "name": "MIRROR",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "mirror"
+        }
+    },
+    {
+        "name": "LENS",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "lens"
+        }
+    },
+    {
+        "name": "CRYSTAL_FOCUS",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "crystal_focus"
+        }
+    },
+    {
+        "name": "REDSTONE_CAPACITOR",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "redstone_capacitor"
+        }
+    },
+    {
+        "name": "CIRCUIT_BOARD",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "circuit_board"
+        }
+    },
+    {
+        "name": "POWER_CORE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "power_core"
+        }
+    },
+    {
+        "name": "GUNCOTTON",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "guncotton"
+        }
+    },
+    {
+        "name": "SULFUR",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "sulfur"
+        }
+    },
+    {
+        "name": "SOAP",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:crafting_material",
+            "subtype": "soap"
+        }
+    },
+    {
+        "name": "NICKEL_ORE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:ore",
+            "subtype": "nickel"
+        }
+    },
+    {
+        "name": "COPPER_ORE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:ore",
+            "subtype": "copper"
+        }
+    },
+    {
+        "name": "ALUMINUM_ORE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:ore",
+            "subtype": "aluminum"
+        }
+    },
+    {
+        "name": "TIN_ORE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:ore",
+            "subtype": "tin"
+        }
+    },
+    {
+        "name": "SILVER_ORE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:ore",
+            "subtype": "silver"
+        }
+    },
+    {
+        "name": "TUNGSTEN_ORE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:ore",
+            "subtype": "tungsten"
+        }
+    },
+    {
+        "name": "TITANIUM_ORE",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:ore",
+            "subtype": "titanium"
+        }
+    },
+	{
+        "name": "NICKEL_BLOCK",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:metal_block",
+            "subtype": "nickel"
+        }
+    },
+    {
+        "name": "COPPER_BLOCK",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:metal_block",
+            "subtype": "copper"
+        }
+    },
+    {
+        "name": "ALUMINUM_BLOCK",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:metal_block",
+            "subtype": "aluminum"
+        }
+    },
+    {
+        "name": "TIN_BLOCK",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:metal_block",
+            "subtype": "tin"
+        }
+    },
+    {
+        "name": "SILVER_BLOCK",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:metal_block",
+            "subtype": "silver"
+        }
+    },
+    {
+        "name": "TUNGSTEN_BLOCK",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:metal_block",
+            "subtype": "tungsten"
+        }
+    },
+    {
+        "name": "TITANIUM_BLOCK",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:metal_block",
+            "subtype": "titanium"
+        }
+    },
+    {
+        "name": "STEEL_BLOCK",
+        "ingredient": {
+			"type": "mechanimation:subtyped",
+            "item": "mechanimation:metal_alloy_block",
+            "subtype": "steel"
+        }
+    },
+    {
+        "name": "WATER_BUCKET",
+        "ingredient": {
+			"type": "craftloader:bucket",
+            "fluid": "water"
+        }
+    }
+]

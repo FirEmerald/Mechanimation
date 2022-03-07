@@ -1,0 +1,1225 @@
+{
+	"{metal}_block_from_ingots": {
+		"transformers": [
+			"mechanimation_metals"
+		],
+		"type": "craftloader:crafting_shaped",
+		"group": "{metal}_block",
+		"pattern": [
+			"III",
+			"III",
+			"III"
+		],
+		"key": {
+			"I": {
+				"type": "forge:ore_dict",
+				"ore": "ingot{Metal}"
+			}
+		},
+		"result": {
+			"item": "#{METAL}_BLOCK"
+		}
+	},
+	"{metal}_ingot_from_nuggets": {
+		"transformers": [
+			"mechanimation_metals"
+		],
+		"type": "craftloader:crafting_shaped",
+		"group": "{metal}_ingot",
+		"pattern": [
+			"NNN",
+			"NNN",
+			"NNN"
+		],
+		"key": {
+			"N": {
+				"type": "forge:ore_dict",
+				"ore": "nugget{Metal}"
+			}
+		},
+		"result": {
+			"item": "#{METAL}_INGOT"
+		}
+	},
+	"{metal}_ingots_from_block": {
+		"transformers": [
+			"mechanimation_metals"
+		],
+		"type": "craftloader:crafting_shaped",
+		"group": "{metal}_ingot",
+		"pattern": [
+			"B"
+		],
+		"key": {
+			"B": {
+				"type": "forge:ore_dict",
+				"ore": "block{Metal}"
+			}
+		},
+		"result": {
+			"item": "#{METAL}_INGOT",
+			"count": 9
+		}
+	},
+	"{metal}_nuggets_from_ingot": {
+		"transformers": [
+			"mechanimation_metals"
+		],
+		"type": "craftloader:crafting_shaped",
+		"group": "{metal}_nugget",
+		"pattern": [
+			"I"
+		],
+		"key": {
+			"I": {
+				"type": "forge:ore_dict",
+				"ore": "ingot{Metal}"
+			}
+		},
+		"result": {
+			"item": "#{METAL}_NUGGET",
+			"count": 9
+		}
+	},
+	
+	"carbon_fiber_helmet": {
+		"type": "craftloader:crafting_shaped",
+		"group": "carbon_fiber_helmet",
+		"pattern": [
+			"CCC",
+			"C C"
+		],
+		"key": {
+			"C": {
+				"item": "#CARBON_FIBER"
+			}
+		},
+		"result": {
+			"item": "mechanimation:carbon_fiber_helmet"
+		}
+	},
+	"carbon_fiber_chestplate": {
+		"type": "craftloader:crafting_shaped",
+		"group": "carbon_fiber_chestplate",
+		"pattern": [
+			"C C",
+			"CCC",
+			"CCC"
+		],
+		"key": {
+			"C": {
+				"item": "#CARBON_FIBER"
+			}
+		},
+		"result": {
+			"item": "mechanimation:carbon_fiber_chestplate"
+		}
+	},
+	"carbon_fiber_leggings": {
+		"type": "craftloader:crafting_shaped",
+		"group": "carbon_fiber_leggings",
+		"pattern": [
+			"CCC",
+			"C C",
+			"C C"
+		],
+		"key": {
+			"C": {
+				"item": "#CARBON_FIBER"
+			}
+		},
+		"result": {
+			"item": "mechanimation:carbon_fiber_leggings"
+		}
+	},
+	"carbon_fiber_boots": {
+		"type": "craftloader:crafting_shaped",
+		"group": "carbon_fiber_boots",
+		"pattern": [
+			"C C",
+			"C C"
+		],
+		"key": {
+			"C": {
+				"item": "#CARBON_FIBER"
+			}
+		},
+		"result": {
+			"item": "mechanimation:carbon_fiber_boots"
+		}
+	},
+	
+	"copper_wire": {
+		"type": "craftloader:crafting_shaped",
+		"group": "copper_wire",
+		"pattern": [
+			"CCC"
+		],
+		"key": {
+			"C": {
+				"type": "forge:ore_dict",
+				"ore": "ingotCopper"
+			}
+		},
+		"result": {
+			"item": "#COPPER_WIRE",
+			"count": 6
+		}
+	},
+	"motor": {
+		"type": "craftloader:crafting_shaped",
+		"group": "motor",
+		"pattern": [
+			" W ",
+			"RPR",
+			" W "
+		],
+		"key": {
+			"W": {
+				"item": "#COPPER_WIRE"
+			},
+			"R": {
+				"type": "forge:ore_dict",
+				"ore": "dustRedstone"
+			},
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateIron"
+			}
+		},
+		"result": {
+			"item": "#MOTOR"
+		}
+	},
+	"power_core": {
+		"type": "craftloader:crafting_shaped",
+		"group": "power_core",
+		"pattern": [
+			"CWC",
+			"BRB",
+			"CWC"
+		],
+		"key": {
+			"C": {
+				"item": "#REDSTONE_CAPACITOR"
+			},
+			"W": {
+				"item": "#COPPER_WIRE"
+			},
+			"B": {
+				"item": "#CIRCUIT_BOARD"
+			},
+			"R": {
+				"type": "forge:ore_dict",
+				"ore": "blockRedstone"
+			}
+		},
+		"result": {
+			"item": "#POWER_CORE"
+		}
+	},
+	"redstone_capacitor": {
+		"type": "craftloader:crafting_shaped",
+		"group": "redstone_capacitor",
+		"pattern": [
+			"P",
+			"R",
+			"P"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateIron"
+			},
+			"R": {
+				"type": "forge:ore_dict",
+				"ore": "dustRedstone"
+			}
+		},
+		"result": {
+			"item": "#REDSTONE_CAPACITOR",
+			"count": 2
+		}
+	},
+	"circuit_board": {
+		"type": "craftloader:crafting_shaped",
+		"group": "circuit_board",
+		"pattern": [
+			"WWW",
+			"WRW",
+			"PPP"
+		],
+		"key": {
+			"W": {
+				"item": "#COPPER_WIRE"
+			},
+			"R": {
+				"type": "forge:ore_dict",
+				"ore": "dustRedstone"
+			},
+			"P": [
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateIron"
+				},
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateCopper"
+				},
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateTin"
+				},
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateAluminum"
+				},
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateSteel"
+				}
+			]
+		},
+		"result": {
+			"item": "#CIRCUIT_BOARD",
+			"count": 3
+		}
+	},
+	"lens": {
+		"type": "craftloader:crafting_shaped",
+		"group": "lens",
+		"pattern": [
+			" P ",
+			"PPP",
+			" P "
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "paneGlassColorless"
+			}
+		},
+		"result": {
+			"item": "#LENS"
+		}
+	},
+	"crystal_focus": {
+		"type": "craftloader:crafting_shaped",
+		"group": "crystal_focus",
+		"pattern": [
+			"SMS",
+			"LDL",
+			"SMS"
+		],
+		"key": {
+			"S": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"M": {
+				"item": "#MIRROR"
+			},
+			"L": {
+				"item": "#LENS"
+			},
+			"D": {
+				"type": "forge:ore_dict",
+				"ore": "gemDiamond"
+			}
+		},
+		"result": {
+			"item": "#CRYSTAL_FOCUS"
+		}
+	},
+	"crystal_focus": {
+		"type": "craftloader:crafting_shaped",
+		"group": "crystal_focus",
+		"pattern": [
+			"SMS",
+			"LDL",
+			"SMS"
+		],
+		"key": {
+			"S": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"M": {
+				"item": "#MIRROR"
+			},
+			"L": {
+				"item": "#LENS"
+			},
+			"D": {
+				"type": "forge:ore_dict",
+				"ore": "gemDiamond"
+			}
+		},
+		"result": {
+			"item": "#CRYSTAL_FOCUS"
+		}
+	},
+	
+	"reinforced_glass_block": {
+		"type": "craftloader:crafting_shaped",
+		"group": "reinforced_glass_block",
+		"pattern": [
+			"GPG",
+			"PGP",
+			"GPG"
+		],
+		"key": {
+			"G": {
+				"type": "forge:ore_dict",
+				"ore": "blockGlass"
+			},
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			}
+		},
+		"result": {
+			"item": "mechanimation:reinforced_glass",
+			"count": 5
+		}
+	},
+	"reinforced_glass_pane": {
+		"type": "craftloader:crafting_shaped",
+		"group": "reinforced_glass_pane",
+		"pattern": [
+			"GGG",
+			"GGG"
+		],
+		"key": {
+			"G": {
+				"item": "mechanimation:reinforced_glass"
+			}
+		},
+		"result": {
+			"item": "mechanimation:reinforced_glass_pane",
+			"count": 16
+		}
+	},
+	
+	"metal_grate_block": {
+		"type": "craftloader:crafting_shaped",
+		"group": "metal_grate",
+		"pattern": [
+			"SIS",
+			"ISI",
+			"SIS"
+		],
+		"key": {
+			"S": {
+				"type": "forge:ore_dict",
+				"ore": "ingotSteel"
+			},
+			"I": {
+				"type": "forge:ore_dict",
+				"ore": "ingotIron"
+			}
+		},
+		"result": {
+			"item": "mechanimation:metal_grate_block",
+			"count": 5
+		}
+	},
+	"metal_grate_block_from_slabs": {
+		"type": "craftloader:crafting_shapeless",
+		"group": "metal_grate",
+		"ingredients": [
+			{
+				"item": "mechanimation:metal_grate_slab"
+			},
+			{
+				"item": "mechanimation:metal_grate_slab"
+			}
+		],
+		"result": {
+			"item": "mechanimation:metal_grate_block"
+		}
+	},
+	"metal_grate_slab": {
+		"type": "craftloader:crafting_shaped",
+		"group": "metal_grate",
+		"pattern": [
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"item": "mechanimation:metal_grate_block"
+			}
+		},
+		"result": {
+			"item": "mechanimation:metal_grate_slab",
+			"count": 6
+		}
+	},
+	"metal_grate_stairs": {
+		"type": "craftloader:crafting_shaped",
+		"group": "metal_grate",
+		"pattern": [
+			"B  ",
+			"BB ",
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"item": "mechanimation:metal_grate_block"
+			}
+		},
+		"result": {
+			"item": "mechanimation:metal_grate_stairs",
+			"count": 4
+		}
+	},
+	"metal_grate_panel": {
+		"type": "craftloader:crafting_shaped",
+		"group": "metal_grate",
+		"pattern": [
+			"BBB",
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"item": "mechanimation:metal_grate_block"
+			}
+		},
+		"result": {
+			"item": "mechanimation:metal_grate_panel",
+			"count": 16
+		}
+	},
+	
+	"{metal}_block_from_slabs": {
+		"transformers": [
+			"mechanimation_decorated_metals"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{metal}_block",
+		"ingredients": [
+			{
+				"item": "mechanimation:{metal}_slab"
+			},
+			{
+				"item": "mechanimation:{metal}_slab"
+			}
+		],
+		"result": {
+			"item": "#{METAL}_BLOCK"
+		}
+	},
+	"{metal}_slab": {
+		"transformers": [
+			"mechanimation_decorated_metals"
+		],
+		"type": "craftloader:crafting_shaped",
+		"group": "{metal}_block",
+		"pattern": [
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"type": "forge:ore_dict",
+				"ore": "block{Metal}"
+			}
+		},
+		"result": {
+			"item": "mechanimation:{metal}_slab",
+			"count": 6
+		}
+	},
+	"{metal}_stairs": {
+		"transformers": [
+			"mechanimation_decorated_metals"
+		],
+		"type": "craftloader:crafting_shaped",
+		"group": "{metal}_block",
+		"pattern": [
+			"B  ",
+			"BB ",
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"type": "forge:ore_dict",
+				"ore": "block{Metal}"
+			}
+		},
+		"result": {
+			"item": "mechanimation:{metal}_stairs",
+			"count": 4
+		}
+	},
+	"{metal}_panel": {
+		"transformers": [
+			"mechanimation_decorated_metals"
+		],
+		"type": "craftloader:crafting_shaped",
+		"group": "{metal}_block",
+		"pattern": [
+			"BBB",
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"type": "forge:ore_dict",
+				"ore": "block{Metal}"
+			}
+		},
+		"result": {
+			"item": "mechanimation:{metal}_panel",
+			"count": 16
+		}
+	},
+	
+	"distillation_tower_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "distillation_tower",
+		"pattern": [
+			" B ",
+			"CBP",
+			"WBW"
+		],
+		"key": {
+			"B": {
+				"type": "forge:ore_dict",
+				"ore": "blockSteel"
+			},
+			"C": {
+				"item": "#CIRCUIT_BOARD"
+			},
+			"P": {
+				"item": "#REDSTONE_CAPACITOR"
+			},
+			"W": {
+				"item": "#COPPER_WIRE"
+			}
+		},
+		"result": {
+			"item": "mechanimation:distillation_tower",
+			"data": 0
+		}
+	},
+	"desalter_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "desalter",
+		"pattern": [
+			" P ",
+			"PGP",
+			"PPP"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"G": {
+				"type": "forge:ore_dict",
+				"ore": "blockGlassHardened"
+			}
+		},
+		"result": {
+			"item": "mechanimation:desalter",
+			"data": 0
+		}
+	},
+	"hydrotreater_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "hydrotreater",
+		"pattern": [
+			" PR",
+			"PPP",
+			"MPC"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"R": {
+				"item": "#REDSTONE_CAPACITOR"
+			},
+			"M": {
+				"item": "#MOTOR"
+			},
+			"C": {
+				"item": "#CIRCUIT_BOARD"
+			}
+		},
+		"result": {
+			"item": "mechanimation:hydrotreater",
+			"data": 0
+		}
+	},
+	"catalytic_reformer_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "catalytic_reformer",
+		"pattern": [
+			" P ",
+			"PEP",
+			"PMP"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"E": {
+				"item": "minecraft:ender_pearl"
+			},
+			"M": {
+				"item": "#MOTOR"
+			}
+		},
+		"result": {
+			"item": "mechanimation:catalytic_reformer",
+			"data": 0
+		}
+	},
+	"merox_treater_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "merox_treater",
+		"pattern": [
+			"PPP",
+			"PGP",
+			"PCP"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"G": {
+				"type": "forge:ore_dict",
+				"ore": "blockGlassHardened"
+			},
+			"C": {
+				"item": "#CIRCUIT_BOARD"
+			}
+		},
+		"result": {
+			"item": "mechanimation:merox_treater",
+			"data": 0
+		}
+	},
+	"claus_plant_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "claus_plant",
+		"pattern": [
+			"SSS",
+			"PGP",
+			"SCR"
+		],
+		"key": {
+			"S": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"G": {
+				"type": "forge:ore_dict",
+				"ore": "blockGlassHardened"
+			},
+			"C": {
+				"item": "#CIRCUIT_BOARD"
+			},
+			"R": {
+				"item": "#REDSTONE_CAPACITOR"
+			},
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateCopper"
+			}
+		},
+		"result": {
+			"item": "mechanimation:claus_plant",
+			"data": 0
+		}
+	},
+	"fluid_reactor_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "fluid_reactor",
+		"pattern": [
+			"PGP",
+			"GMG",
+			"PGP"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"G": {
+				"type": "forge:ore_dict",
+				"ore": "blockGlassHardened"
+			},
+			"M": {
+				"item": "#MOTOR"
+			}
+		},
+		"result": {
+			"item": "mechanimation:fluid_reactor",
+			"data": 0
+		}
+	},
+	
+	"press_basic": {
+		"type": "craftloader:crafting_shaped",
+		"group": "press",
+		"pattern": [
+			"IPI",
+			"IRI",
+			"SCS"
+		],
+		"key": {
+			"I": {
+				"type": "forge:ore_dict",
+				"ore": "ingotIron"
+			},
+			"P": {
+				"item": "minecraft:piston"
+			},
+			"R": {
+				"type": "forge:ore_dict",
+				"ore": "dustRedstone"
+			},
+			"S": {
+				"item": "minecraft:stone_slab",
+				"data": 0
+			},
+			"C": {
+				"type": "forge:ore_dict",
+				"ore": "ingotCopper"
+			}
+		},
+		"result": {
+			"item": "mechanimation:press",
+			"data": 0
+		}
+	},
+	"press_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "press",
+		"pattern": [
+			"PPP",
+			"CMC",
+			"PBP"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"C": {
+				"item": "#REDSTONE_CAPACITOR"
+			},
+			"M": {
+				"item": "#MOTOR"
+			},
+			"B": {
+				"item": "#CIRCUIT_BOARD"
+			}
+		},
+		"result": {
+			"item": "mechanimation:press",
+			"data": 1
+		}
+	},
+	
+	"sterling_generator": {
+		"type": "craftloader:crafting_shaped",
+		"group": "generator",
+		"pattern": [
+			"WMW",
+			"IFI",
+			"SCS"
+		],
+		"key": {
+			"W": {
+				"item": "#COPPER_WIRE"
+			},
+			"M": {
+				"item": "#MOTOR"
+			},
+			"I": {
+				"type": "forge:ore_dict",
+				"ore": "ingotIron"
+			},
+			"F": {
+				"item": "minecraft:furnace"
+			},
+			"S": {
+				"item": "minecraft:stone_slab",
+				"data": 0
+			},
+			"C": {
+				"type": "forge:ore_dict",
+				"ore": "ingotCopper"
+			}
+		},
+		"result": {
+			"item": "mechanimation:generator",
+			"data": 0
+		}
+	},
+	"combustion_generator": {
+		"type": "craftloader:crafting_shaped",
+		"group": "generator",
+		"pattern": [
+			"PPP",
+			"RSR",
+			"MGC"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"R": {
+				"item": "#REDSTONE_CAPACITOR"
+			},
+			"S": {
+				"item": "mechanimation:generator",
+				"data": 0
+			},
+			"M": {
+				"item": "#MOTOR"
+			},
+			"G": {
+				"type": "forge:ore_dict",
+				"ore": "blockGlassHardened"
+			},
+			"C": {
+				"item": "#CIRCUIT_BOARD"
+			}
+		},
+		"result": {
+			"item": "mechanimation:generator",
+			"data": 1
+		}
+	},
+	
+	"electrolyzer_advanced": {
+		"type": "craftloader:crafting_shaped",
+		"group": "electrolyzer",
+		"pattern": [
+			"PPP",
+			"P P",
+			"RCR"
+		],
+		"key": {
+			"P": {
+				"type": "forge:ore_dict",
+				"ore": "plateSteel"
+			},
+			"R": {
+				"item": "#REDSTONE_CAPACITOR"
+			},
+			"C": {
+				"item": "#CIRCUIT_BOARD"
+			}
+		},
+		"result": {
+			"item": "mechanimation:electrolyzer",
+			"data": 0
+		}
+	},
+	
+	"pulverizer_basic": {
+		"type": "craftloader:crafting_shaped",
+		"group": "pulverizer",
+		"pattern": [
+			"IPI",
+			"I I",
+			"CRC"
+		],
+		"key": {
+			"I": {
+				"type": "forge:ore_dict",
+				"ore": "ingotIron"
+			},
+			"P": {
+				"item": "minecraft:piston"
+			},
+			"C": {
+				"item": "minecraft:stone_slab",
+				"data": 0
+			},
+			"R": {
+				"item": "#REDSTONE_CAPACITOR"
+			}
+		},
+		"result": {
+			"item": "mechanimation:pulverizer",
+			"data": 0
+		}
+	},
+	
+	"{color}_{pipe_tier}_item_pipe": {
+		"transformers": [
+			"colors",
+			"pipe_tiers"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{pipe_tier}_item_pipe",
+		"ingredients": [
+			{
+				"type": "mechanimation:pipe",
+				"item": "mechanimation:item_pipe",
+				"tier": "{pipe_tier}",
+				"color": "any"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "dye{Color}"
+			}
+		],
+		"result": {
+			"type": "mechanimation:pipe",
+			"item": "mechanimation:item_pipe",
+			"tier": "{pipe_tier}",
+			"color": "{color}"
+		}
+	},
+	"{pipe_tier}_fluid_pipe_from_{pipe_tier}_item_pipe": {
+		"transformers": [
+			"pipe_tiers"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{pipe_tier}_fluid_pipe",
+		"ingredients": [
+			{
+				"type": "mechanimation:pipe",
+				"item": "mechanimation:item_pipe",
+				"tier": "{pipe_tier}",
+				"color": "none"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "paneGlassColorless"
+			}
+		],
+		"result": {
+			"type": "mechanimation:pipe",
+			"item": "mechanimation:fluid_pipe",
+			"tier": "{pipe_tier}",
+			"color": "none"
+		}
+	},
+	"{color}_{pipe_tier}_fluid_pipe": {
+		"transformers": [
+			"colors",
+			"pipe_tiers"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{pipe_tier}_fluid_pipe",
+		"ingredients": [
+			{
+				"type": "mechanimation:pipe",
+				"item": "mechanimation:fluid_pipe",
+				"tier": "{pipe_tier}",
+				"color": "any"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "dye{Color}"
+			}
+		],
+		"result": {
+			"type": "mechanimation:pipe",
+			"item": "mechanimation:fluid_pipe",
+			"tier": "{pipe_tier}",
+			"color": "{color}"
+		}
+	},
+	"{color}_{pipe_tier}_fluid_pipe_from_{color}_{pipe_tier}_item_pipe": {
+		"transformers": [
+			"colors",
+			"pipe_tiers"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{pipe_tier}_fluid_pipe",
+		"ingredients": [
+			{
+				"type": "mechanimation:pipe",
+				"item": "mechanimation:item_pipe",
+				"tier": "{pipe_tier}",
+				"color": "{color}"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "paneGlassColorless"
+			}
+		],
+		"result": {
+			"type": "mechanimation:pipe",
+			"item": "mechanimation:fluid_pipe",
+			"tier": "{pipe_tier}",
+			"color": "{color}"
+		}
+	},
+	"{color}_{pipe_tier}_fluid_pipe_from_{pipe_tier}_item_pipe": {
+		"transformers": [
+			"colors",
+			"pipe_tiers"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{pipe_tier}_fluid_pipe",
+		"ingredients": [
+			{
+				"type": "mechanimation:pipe",
+				"item": "mechanimation:item_pipe",
+				"tier": "{pipe_tier}",
+				"color": "any"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "paneGlass{Color}"
+			}
+		],
+		"result": {
+			"type": "mechanimation:pipe",
+			"item": "mechanimation:fluid_pipe",
+			"tier": "{pipe_tier}",
+			"color": "{color}"
+		}
+	},
+	"{pipe_tier}_energy_pipe_from_{pipe_tier}_item_pipe": {
+		"transformers": [
+			"pipe_tiers"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{pipe_tier}_energy_pipe",
+		"ingredients": [
+			{
+				"type": "mechanimation:pipe",
+				"item": "mechanimation:item_pipe",
+				"tier": "{pipe_tier}",
+				"color": "none"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "dustRedstone"
+			}
+		],
+		"result": {
+			"type": "mechanimation:pipe",
+			"item": "mechanimation:energy_pipe",
+			"tier": "{pipe_tier}",
+			"color": "none"
+		}
+	},
+	"{color}_{pipe_tier}_energy_pipe": {
+		"transformers": [
+			"colors",
+			"pipe_tiers"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{pipe_tier}_energy_pipe",
+		"ingredients": [
+			{
+				"type": "mechanimation:pipe",
+				"item": "mechanimation:energy_pipe",
+				"tier": "{pipe_tier}",
+				"color": "any"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "dye{Color}"
+			}
+		],
+		"result": {
+			"type": "mechanimation:pipe",
+			"item": "mechanimation:energy_pipe",
+			"tier": "{pipe_tier}",
+			"color": "{color}"
+		}
+	},
+	"{color}_{pipe_tier}_energy_pipe_from_{color}_{pipe_tier}_item_pipe": {
+		"transformers": [
+			"colors",
+			"pipe_tiers"
+		],
+		"type": "craftloader:crafting_shapeless",
+		"group": "{pipe_tier}_energy_pipe",
+		"ingredients": [
+			{
+				"type": "mechanimation:pipe",
+				"item": "mechanimation:item_pipe",
+				"tier": "{pipe_tier}",
+				"color": "{color}"
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "dustRedstone"
+			}
+		],
+		"result": {
+			"type": "mechanimation:pipe",
+			"item": "mechanimation:energy_pipe",
+			"tier": "{pipe_tier}",
+			"color": "{color}"
+		}
+	},
+	
+	"item_extractor": {
+		"type": "craftloader:crafting_shaped",
+		"group": "extractor",
+		"pattern": [
+			"P",
+			"M",
+			"P"
+		],
+		"key": {
+			"P": [
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateIron"
+				},
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateCopper"
+				},
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateTin"
+				},
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateAluminum"
+				},
+				{
+					"type": "forge:ore_dict",
+					"ore": "plateSteel"
+				}
+			],
+			"M": {
+				"item": "#MOTOR"
+			}
+		},
+		"result": {
+			"item": "mechanimation:extractor",
+			"data": 1,
+			"count": 4
+		}
+	},
+	"fluid_extractor": {
+		"type": "craftloader:crafting_shapeless",
+		"group": "extractor",
+		"ingredients": [
+			{
+				"item": "mechanimation:extractor",
+				"data": 1
+			},
+			{
+				"type": "forge:ore_dict",
+				"ore": "paneGlassColorless"
+			}
+		],
+		"result": {
+			"item": "mechanimation:extractor",
+			"data": 0,
+			"count": 4
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/iron_bars_cap_alt",
+    "textures": {
+        "particle": "mechanimation:blocks/metal_alloy/titanium",
+        "bars": "mechanimation:blocks/metal_alloy/titanium",
+        "edge": "mechanimation:blocks/metal_alloy/titanium"
+    }
+}

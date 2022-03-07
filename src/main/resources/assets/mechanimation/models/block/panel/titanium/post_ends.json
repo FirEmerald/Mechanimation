@@ -1,0 +1,7 @@
+{
+    "parent": "block/iron_bars_post_ends",
+    "textures": {
+        "particle": "mechanimation:blocks/metal_alloy/titanium",
+        "edge": "mechanimation:blocks/metal_alloy/titanium"
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root">
+        <bone name="tray" tY="0.875"/>
+        <bone name="piston" tY="0.5" tZ="0.15625"/>
+        <bone name="door_leaf_0" rX="-80.0" rY="-45.0" rotation="euler_zyx" tX="0.4375" tY="0.9375" tZ="-0.4375"/>
+        <bone name="door_leaf_1" rX="-80.0" rY="45.0" rotation="euler_zyx" tX="-0.4375" tY="0.9375" tZ="-0.4375"/>
+        <bone name="door_leaf_2" rX="80.0" rotation="euler_zyx" tY="0.9375" tZ="0.4375">
+            <bone name="door_lock_1" tZ="0.1875"/>
+        </bone>
+        <bone name="door_lock_0" rX="-90.0" rotation="euler_zyx" tY="0.8125" tZ="-0.40625"/>
+    </bone>
+</skeleton>

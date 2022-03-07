@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root" rY="180.0" rotation="euler_zyx">
+        <bone name="main"/>
+    </bone>
+</skeleton>

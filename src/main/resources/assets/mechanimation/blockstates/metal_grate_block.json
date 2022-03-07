@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal":  { "model": "mechanimation:metal_grate_block" }
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root">
+        <bone name="main">
+            <bone name="gear_1" rZ="-180.0" rotation="euler_zyx" tX="0.140625" tY="0.21875" tZ="0.0625"/>
+            <bone name="gear_2" rX="157.5" rotation="euler_zyx" tX="-0.15625" tY="0.21875" tZ="0.359375"/>
+        </bone>
+        <bone name="piston_1" tX="0.125"/>
+        <bone name="piston_2" tX="0.125"/>
+    </bone>
+</skeleton>

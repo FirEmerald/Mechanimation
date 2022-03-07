@@ -1,0 +1,26 @@
+{
+	"carbon_fiber": {
+		"type": "mechanimation:pressing",
+		"energy": 10000,
+		"input": {
+			"item": "minecraft:coal",
+			"data": 32767,
+			"count": 16
+		},
+		"output": {
+			"item": "#CARBON_FIBER"
+		}
+	},
+	"diamond": {
+		"type": "mechanimation:pressing",
+		"energy": 100000,
+		"input": {
+			"type": "forge:ore_dict",
+			"ore": "blockCoal",
+			"count": 16
+		},
+		"output": {
+			"item": "minecraft:diamond"
+		}
+	}
+}

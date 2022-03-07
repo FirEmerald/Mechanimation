@@ -1,0 +1,4 @@
+{
+	"smelting": "firemerald.mechanimation.util.crafting.ArcFurnaceRecipeFactory",
+	"tool": "firemerald.mechanimation.util.crafting.ArcFurnaceToolRecipeFactory"
+}

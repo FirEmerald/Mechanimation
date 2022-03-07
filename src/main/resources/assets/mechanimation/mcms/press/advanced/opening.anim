@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="1.4500000476837158" loop="false" relative="false">
+    <frame frameTime="0.0">
+        <bone boneName="tray" tY="0.625"/>
+        <bone boneName="door_leaf_0" tX="0.1875" tY="0.9375" tZ="0.25"/>
+        <bone boneName="door_lock_1" tY="-0.03125"/>
+        <bone boneName="door_leaf_1" tX="-0.1875" tY="0.9375" tZ="0.25"/>
+        <bone boneName="door_leaf_2" tY="0.9375" tZ="-0.0625"/>
+        <bone boneName="door_lock_0" tY="0.90625" tZ="-0.0625"/>
+    </frame>
+    <frame frameTime="0.05">
+        <bone boneName="door_lock_0" tY="0.90625" tZ="-0.0625"/>
+    </frame>
+    <frame frameTime="0.1">
+        <bone boneName="door_lock_1"/>
+    </frame>
+    <frame frameTime="0.15">
+        <bone boneName="door_lock_0" tY="0.9375" tZ="-0.0625"/>
+    </frame>
+    <frame frameTime="0.3">
+        <bone boneName="door_lock_1" tZ="0.1875"/>
+        <bone boneName="door_leaf_2" tY="0.9375" tZ="-0.0625"/>
+    </frame>
+    <frame frameTime="0.35">
+        <bone boneName="door_leaf_0" tX="0.1875" tY="0.9375" tZ="0.25"/>
+        <bone boneName="door_leaf_1" tX="-0.1875" tY="0.9375" tZ="0.25"/>
+        <bone boneName="door_lock_0" tY="0.9375" tZ="-0.40625"/>
+    </frame>
+    <frame frameTime="0.45">
+        <bone boneName="door_leaf_0" tX="0.1875" tY="0.96875" tZ="0.25"/>
+        <bone boneName="door_leaf_1" tX="-0.1875" tY="0.96875" tZ="0.25"/>
+        <bone boneName="door_leaf_2" tY="0.96875" tZ="-0.0625"/>
+    </frame>
+    <frame frameTime="0.6">
+        <bone boneName="door_lock_0" tY="0.9375" tZ="-0.40625"/>
+    </frame>
+    <frame frameTime="0.7">
+        <bone boneName="door_leaf_0" tX="0.375" tY="0.96875" tZ="-0.0625"/>
+        <bone boneName="door_leaf_1" tX="-0.375" tY="0.96875" tZ="-0.0625"/>
+        <bone boneName="door_leaf_2" tY="0.96875" tZ="0.1875"/>
+        <bone boneName="door_lock_0" rX="-90.0" rotation="euler_zyx" tY="0.9375" tZ="-0.40625"/>
+    </frame>
+    <frame frameTime="0.85">
+        <bone boneName="door_leaf_2" rX="40.0" rotation="euler_zyx" tY="1.0625" tZ="0.3125"/>
+        <bone boneName="door_lock_0" rX="-90.0" rotation="euler_zyx" tY="0.8125" tZ="-0.40625"/>
+    </frame>
+    <frame frameTime="1.0">
+        <bone boneName="door_leaf_0" rX="-80.0" rY="-45.0" rotation="euler_zyx" tX="0.4375" tY="1.25" tZ="-0.4375"/>
+        <bone boneName="door_leaf_1" rX="-80.0" rY="45.0" rotation="euler_zyx" tX="-0.4375" tY="1.25" tZ="-0.4375"/>
+        <bone boneName="door_leaf_2" rX="80.0" rotation="euler_zyx" tY="1.0625" tZ="0.4375"/>
+    </frame>
+    <frame frameTime="1.45">
+        <bone boneName="tray" tY="0.875"/>
+        <bone boneName="door_leaf_0" rX="-80.0" rY="-45.0" rotation="euler_zyx" tX="0.4375" tY="0.9375" tZ="-0.4375"/>
+        <bone boneName="door_lock_1" tZ="0.1875"/>
+        <bone boneName="door_leaf_1" rX="-80.0" rY="45.0" rotation="euler_zyx" tX="-0.4375" tY="0.9375" tZ="-0.4375"/>
+        <bone boneName="door_leaf_2" rX="80.0" rotation="euler_zyx" tY="0.9375" tZ="0.4375"/>
+        <bone boneName="door_lock_0" rX="-90.0" rotation="euler_zyx" tY="0.8125" tZ="-0.40625"/>
+    </frame>
+</animation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="1.0" loop="true" relative="false">
+    <frame frameTime="0.0">
+        <bone boneName="spindle" tX="0.3125" tY="0.1875" tZ="-0.1875"/>
+    </frame>
+    <frame frameTime="1.0">
+        <bone boneName="spindle" rZ="180.0" rotation="euler_zyx" tX="0.3125" tY="0.1875" tZ="-0.1875"/>
+    </frame>
+</animation>

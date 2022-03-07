@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=steel":  { "model": "mechanimation:metal_alloy/steel" }
+    }
+}

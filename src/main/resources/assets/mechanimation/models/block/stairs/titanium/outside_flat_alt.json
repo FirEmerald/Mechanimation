@@ -1,0 +1,6 @@
+{
+	"parent": "mechanimation:block/stairs/outside_flat_alt_all",
+	"textures": {
+		"side": "mechanimation:blocks/metal/titanium"
+	}
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<effects>
+    <bone name="root">
+        <item name="blueprint" rY="180.0" renderStage="POST_BONE" rotation="euler_zyx" scale="0.5" slot="1" tY="0.5" tZ="0.515625" transformType="FIXED"/>
+        <item name="output" rY="180.0" renderStage="POST_BONE" rotation="euler_zyx" scale="0.5" slot="2" tX="1.0" tY="0.5" tZ="0.515625" transformType="FIXED"/>
+        <mechanimation:assembly_terminal name="assembly_input" renderStage="POST_CHILDREN" scale="0.01171875" tX="0.5" tY="1.0019531" tZ="-0.5"/>
+    </bone>
+</effects>

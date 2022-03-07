@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<effects>
+    <bone name="Base">
+        <item name="item" rX="90.0" rotation="euler_zyx" scale="0.5" slot="0" tX="0.5" tY="0.390625" tZ="0.34375" transformType="FIXED"/>
+    </bone>
+</effects>

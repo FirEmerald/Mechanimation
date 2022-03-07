@@ -1,0 +1,28 @@
+{
+	"rocket_fuel": {
+		"type": "mechanimation:treating",
+		"oxygen_amount": 1,
+		"input_fluid": {
+			"fluid": "kerosene",
+			"amount": 20
+		},
+		"output_fluid": {
+			"fluid": "rocket_fuel",
+			"amount": 20
+		}
+	},
+	"propane": {
+		"type": "mechanimation:treating",
+		"oxygen_amount": 1,
+		"input_fluid": {
+			"isGas": true,
+			"fluid": "fuel_gas",
+			"amount": 20
+		},
+		"output_fluid": {
+			"isGas": true,
+			"fluid": "propane",
+			"amount": 20
+		}
+	}
+}

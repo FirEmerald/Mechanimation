@@ -1,0 +1,6 @@
+{
+	"parent": "mechanimation:block/stairs/straight_all",
+	"textures": {
+		"side": "mechanimation:blocks/metal_grate"
+	}
+}

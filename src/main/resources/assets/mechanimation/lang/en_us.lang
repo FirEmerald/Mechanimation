@@ -1,0 +1,258 @@
+#creative tabs
+itemGroup.mechanimation.materials=Mechanimation Materials
+itemGroup.mechanimation.combat=Mechanimation Combat
+itemGroup.mechanimation.blocks=Mechanimation Blocks
+itemGroup.mechanimation.decorations=Mechanimation Decorations
+itemGroup.mechanimation.machines=Mechanimation Machines
+itemGroup.mechanimation.pipes=Mechanimation Pipes
+
+#materials
+item.crafting_material.coal_dust.name=Coal Dust
+item.crafting_material.iron_dust.name=Iron Dust
+item.crafting_material.gold_dust.name=Gold Dust
+item.crafting_material.nickel_dust.name=Nickel Dust
+item.crafting_material.copper_dust.name=Copper Dust
+item.crafting_material.aluminum_dust.name=Aluminum Dust
+item.crafting_material.tin_dust.name=Tin Dust
+item.crafting_material.silver_dust.name=Silver Dust
+item.crafting_material.tungsten_dust.name=Tungsten Dust
+item.crafting_material.titanium_dust.name=Titanium Dust
+item.crafting_material.steel_dust.name=Steel Dust
+item.crafting_material.nickel_nugget.name=Nickel Nugget
+item.crafting_material.copper_nugget.name=Copper Nugget
+item.crafting_material.aluminum_nugget.name=Aluminum Nugget
+item.crafting_material.tin_nugget.name=Tin Nugget
+item.crafting_material.silver_nugget.name=Silver Nugget
+item.crafting_material.tungsten_nugget.name=Tungsten Nugget
+item.crafting_material.titanium_nugget.name=Titanium Nugget
+item.crafting_material.steel_nugget.name=Steel Nugget
+item.crafting_material.nickel_ingot.name=Nickel Ingot
+item.crafting_material.copper_ingot.name=Copper Ingot
+item.crafting_material.aluminum_ingot.name=Aluminum Ingot
+item.crafting_material.tin_ingot.name=Tin Ingot
+item.crafting_material.silver_ingot.name=Silver Ingot
+item.crafting_material.tungsten_ingot.name=Tungsten Ingot
+item.crafting_material.titanium_ingot.name=Titanium Ingot
+item.crafting_material.steel_ingot.name=Steel Ingot
+item.crafting_material.coal_plate.name=Coal Plate
+item.crafting_material.iron_plate.name=Iron Plate
+item.crafting_material.gold_plate.name=Gold Plate
+item.crafting_material.nickel_plate.name=Nickel Plate
+item.crafting_material.copper_plate.name=Copper Plate
+item.crafting_material.aluminum_plate.name=Aluminum Plate
+item.crafting_material.tin_plate.name=Tin Plate
+item.crafting_material.silver_plate.name=Silver Plate
+item.crafting_material.tungsten_plate.name=Tungsten Plate
+item.crafting_material.titanium_plate.name=Titanium Plate
+item.crafting_material.steel_plate.name=Steel Plate
+item.crafting_material.carbon_fiber.name=Carbon Fiber
+item.crafting_material.copper_wire.name=Copper Wire
+item.crafting_material.motor.name=Motor
+item.crafting_material.heat_shield.name=Heat Shield
+item.crafting_material.mirror.name=Mirror
+item.crafting_material.lens.name=Lens
+item.crafting_material.crystal_focus.name=Crystal Focus
+item.crafting_material.redstone_capacitor.name=Redstone Capacitor
+item.crafting_material.circuit_board.name=Circuit Board
+item.crafting_material.power_core.name=Power Core
+item.crafting_material.gravity_disruptor.name=Gravity Disruptor
+item.crafting_material.guncotton.name=Guncotton
+item.crafting_material.sulfur.name=Sulfur
+item.crafting_material.soap.name=Soap
+
+#combat
+item.carbon_fiber_helmet.name=Carbon Fiber Helmet
+item.carbon_fiber_chestplate.name=Carbon Fiber Chestplate
+item.carbon_fiber_leggings.name=Carbon Fiber Leggings
+item.carbon_fiber_boots.name=Carbon Fiber Boots
+
+#blocks
+tile.dark_ore.redstone.name=Dark Redstone Ore
+tile.ore.nickel.name=Nickel Ore
+tile.ore.copper.name=Copper Ore
+tile.ore.tin.name=Tin Ore
+tile.ore.aluminum.name=Aluminum Ore
+tile.ore.silver.name=Silver Ore
+tile.ore.tungsten.name=Tungsten Ore
+tile.ore.titanium.name=Titanium Ore
+tile.ore.sulfur.name=Sulfur Ore
+tile.ore_dark.nickel.name=Dark Nickel Ore
+tile.ore_dark.copper.name=Dark Copper Ore
+tile.ore_dark.tin.name=Dark Tin Ore
+tile.ore_dark.aluminum.name=Dark Aluminum Ore
+tile.ore_dark.silver.name=Dark Silver Ore
+tile.ore_dark.tungsten.name=Dark Tungsten Ore
+tile.ore_dark.titanium.name=Dark Titanium Ore
+tile.ore_dark.sulfur.name=Dark Sulfur Ore
+tile.metal_block.nickel.name=Block of Nickel
+tile.metal_block.copper.name=Block of Copper
+tile.metal_block.tin.name=Block of Tin
+tile.metal_block.aluminum.name=Block of Aluminum
+tile.metal_block.silver.name=Block of Silver
+tile.metal_block.tungsten.name=Block of Tungsten
+tile.metal_block.titanium.name=Block of Titanium
+tile.metal_alloy_block.steel.name=Block of Steel
+tile.metal_grate_block.name=Metal Grate Block
+tile.reinforced_glass.name=Reinforced Glass
+tile.asphalt.name=Asphalt
+
+#decorations
+tile.metal_grate_panel.name=Metal Grate Panel
+tile.steel_panel.name=Steel Panel
+tile.titanium_panel.name=Titanium Panel
+tile.reinforced_glass_pane.name=Reinforced Glass 
+tile.metal_grate_slab.name=Metal Grate Slab
+tile.metal_grate_stairs.name=Metal Grate Stairs
+tile.steel_slab.name=Steel Slab
+tile.steel_stairs.name=Steel Stairs
+tile.titanium_slab.name=Titanium Slab
+tile.titanium_stairs.name=Titanium Stairs
+
+#machines
+tile.press.basic.name=Press (Basic)
+tile.press.advanced.name=Press (Advanced)
+tile.fluid_reactor.advanced.name=Fluid Reactor (Advanced)
+tile.electrolyzer.advanced.name=Electrolyzer (Advanced)
+tile.hydrotreater.advanced.name=Hydrotreater (Advanced)
+tile.desalter.advanced.name=Desalter (Advanced)
+tile.catalytic_reformer.advanced.name=Catalytic Reformer (Advanced)
+tile.distillation_tower.advanced.name=Distillation Tower (Advanced)
+tile.merox_treater.advanced.name=Merox Treater (Advanced)
+tile.claus_plant.advanced.name=Claus Plant (Advanced)
+tile.generator.stirling.name=Stirling Generator
+tile.generator.combustion.name=Combustion Generator
+tile.pulverizer.basic.name=Pulverizer (Basic)
+tile.blast_furnace.basic.name=Blast Furnace
+tile.arc_furnace.advanced.name=Arc Furnace (Advanced)
+tile.casting_table.basic.name=Casting Table (Basic)
+tile.assembly_terminal.basic.name=Assembly Terminal (Basic)
+item.item_pipe.name=%s Item Pipe
+item.item_pipe.colored.name=%s Item Pipe (%s§f)
+item.energy_pipe.name=%s Energy Pipe
+item.energy_pipe.colored.name=%s Energy Pipe (%s§f)
+item.fluid_pipe.name=%s Fluid Pipe
+item.fluid_pipe.colored.name=%s Fluid Pipe (%s§f)
+item.extractor.item.name=Item Extraction Servo
+item.extractor.fluid.name=Fluid Extraction Servo
+
+#fluids
+fluid.nitric_acid=Nitric Acid
+fluid.sulfuric_acid=Sulfuric Acid
+fluid.glycerol=Glycerol
+fluid.nitroglycerin=Nitroglycerin
+fluid.redstone=Motlen Redstone
+fluid.lapis=Molten Lapis Lazuli
+fluid.nickel=Molten Nickel
+fluid.copper=Molten Copper
+fluid.aluminum=Molten Aluminum
+fluid.tin=Molten Tin
+fluid.silver=Molten Silver
+fluid.tungsten=Molten Tungsten
+fluid.titanium=Molten Titanium
+fluid.steel=Molten Steel
+fluid.brine=Brine
+fluid.crude_oil=Crude Oil
+fluid.desalted_crude_oil=Desalted Crude Oil
+fluid.tar=Tar
+fluid.gasoline=Gasoline
+fluid.kerosene=Kerosene
+fluid.rocket_fuel=Rocket Fuel
+gas.untreated_naphtha=Untreated Naphtha
+gas.naphtha=Naphtha
+gas.fuel_gas=Fuel Gas
+gas.propane=Propane
+gas.hydrogen_sulfide=Hydrogen Sulfide
+gas.hydrogen=Hydrogen
+gas.oxygen=Oxygen
+gas.sodium=Sodium Hydroxide
+gas.chlorine=Chlorine
+
+#lore
+tooltip.rf=RF: %d/%d
+lore.or.2=%s §for %s
+lore.mechanimation.fmp=Forge Multipart Block
+lore.mechanimation.items.items_per_second= %f items/sec (%f sec/item)
+lore.mechanimation.fluid.capacity=Capacity: %d mb
+lore.mechanimation.fluid.transfer=Transfer rate: %d mb/sec
+lore.mechanimation.energy.capacity=Capacity: %d RF
+lore.mechanimation.energy.transfer=Transfer rate: %d RF/sec
+lore.mechanimation.press=Presses items
+lore.mechanimation.fluid_reactor=Mixes fluids and solids
+lore.mechanimation.electrolyzer=Electrolyzes fluids
+lore.mechanimation.hydrotreater=Removes Sulfur from fluids
+lore.mechanimation.desalter=Removes Salt from fluids
+lore.mechanimation.catalytic_reformer=Converts naphthas into usable fuel
+lore.mechanimation.distillation_tower=Distills raw fuels
+lore.mechanimation.merox_treater=Removes mercaptans from impure fuels
+lore.mechanimation.claus_plant=Recovers elemental sulfur from hydrogen sulfide
+lore.mechanimation.generator.stirling=Generates RF by burning items
+lore.mechanimation.generator.combustion=Generates RF via controlled explosions
+lore.mechanimation.pulverizer=Pulverizes items
+lore.mechanimation.blast_furnace=Uses super-heated air to melt metals and create steel
+lore.mechanimation.arc_furnace=Uses electricity to melt metals and create steel
+lore.mechanimation.casting_table=Casts molten metal into items
+lore.mechanimation.assembly_terminal=Assembles items from blueprints
+lore.mechanimation.item_pipe=Transports items
+lore.mechanimation.energy_pipe=Transports RF
+lore.mechanimation.fluid_pipe=Transports Liquids and Gasses
+pipe.tier.stone=Stone
+pipe.tier.iron=Iron
+pipe.tier.steel=Steel
+pipe.tier.titanium=Titanium
+
+
+#gui
+gui.apply=Apply
+gui.back=Back
+gui.exit=Exit
+gui.fluid.amount=%d mb
+gui.mechanimation.energy=Energy: %d RF
+gui.mechanimation.temp=%d °C
+
+#containers
+container.mechanimation.press=Press
+container.mechanimation.fluid_reactor=Fluid Reactor
+container.mechanimation.electrolyzer=Electrolyzer
+container.mechanimation.hydrotreater=Hydrotreater
+container.mechanimation.desalter=Desalter
+container.mechanimation.catalytic_reformer=Catalytic Reformer
+container.mechanimation.distillation_tower=Distillation Tower
+container.mechanimation.merox_treater=Merox Treater
+container.mechanimation.claus_plant=Claus Plant
+container.mechanimation.stirling_generator=Stirling Generator
+container.mechanimation.combustion_generator=Combustion Generator
+container.mechanimation.pulverizer=Pulverizer
+container.mechanimation.blast_furnace=Blast Furnace
+container.mechanimation.arc_furnace=Arc Furnace
+container.mechanimation.casting_table=Casting Table
+container.mechanimation.assembly_terminal=Assembly Terminal
+
+#casting types
+casting_type.ingot=Ingot
+casting_type.gem=Gem
+casting_type.nugget=Nugget
+casting_type.plate=Plate
+casting_type.block=Block
+
+#mod options
+options.mechanimation.options=Mechanimation Options
+options.mechanimation.client=Client Options
+options.mechanimation.showitems=Show items in pipes: %b
+options.mechanimation.server=Server Options
+
+#messages
+msg.mechanimation.recommended.url=Mechanimation recommends installing %s %s (click to download)
+msg.mechanimation.recommended=Mechanimation recommends installing %s %s
+msg.mechanimation.recommended.server.url=[SERVER] Mechanimation recommends installing %s %s (click to download)
+msg.mechanimation.recommended.server=[SERVER] Mechanimation recommends installing %s %s
+
+#jei
+gui.mechanimation.jei.stirling_generator.burn_item=Burns for %d seconds
+gui.mechanimation.jei.combustion_generator.burn_time=Burns for %d ticks/millibucket
+gui.mechanimation.jei.combustion_generator.speed=Maximum speed: %d RPM
+gui.mechanimation.jei.arc_furnace.steeling=Steeling
+gui.mechanimation.jei.casting.temp=%d °C -> %d °C
+jei.tooltip.missing_runtime=§4Error: missing JEI runtime
+mechanimation.jei.tooltip.rf=%d RF
+mechanimation.jei.tooltip.rf.produced=Produces %d RF
+mechanimation.jei.tooltip.rf.produced.maximum=Produces %d RF/tick maximum

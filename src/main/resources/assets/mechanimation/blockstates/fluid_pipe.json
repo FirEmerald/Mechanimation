@@ -1,0 +1,42 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "mechanimation:pipe",
+		"textures": {
+			"frame": "mechanimation:blocks/pipe/frame_stone",
+			"icon": "mechanimation:blocks/pipe/fluid_pipe",
+			"particle": "#frame"
+		},
+		"root-transform": "forge:default-block"
+	},
+	"root-transform": "forge:default-block",
+	"variants": {
+		"tier": {
+			"stone": {
+				"textures": {
+					"frame": "mechanimation:blocks/pipe/frame_stone"
+				}
+			},
+			"iron": {
+				"textures": {
+					"frame": "mechanimation:blocks/pipe/frame_iron"
+				}
+			},
+			"steel": {
+				"textures": {
+					"frame": "mechanimation:blocks/pipe/frame_steel"
+				}
+			},
+			"titanium": {
+				"textures": {
+					"frame": "mechanimation:blocks/pipe/frame_titanium"
+				}
+			},
+			"maldium": {
+				"textures": {
+					"frame": "mechanimation:blocks/pipe/frame_maldium"
+				}
+			}
+		}
+	}
+}

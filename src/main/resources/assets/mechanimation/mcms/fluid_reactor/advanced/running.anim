@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="2.5" loop="true" relative="false">
+    <frame frameTime="2.0">
+        <bone boneName="plunger_1" tY="0.09375" tZ="0.09375"/>
+        <bone boneName="plunger_2" rX="-179.999991348578" rZ="-179.999991348578" rotation="euler_zyx" tY="0.09375" tZ="-0.09375"/>
+        <bone boneName="plunger_3" rX="180.00000500895632" rY="89.999995674289" rZ="180.00000500895632" rotation="euler_zyx" tX="0.09375" tY="0.09375"/>
+        <bone boneName="plunger_4" rX="180.00000500895632" rY="-89.999995674289" rZ="180.00000500895632" rotation="euler_zyx" tX="-0.09375" tY="0.09375"/>
+    </frame>
+    <frame frameTime="2.5">
+        <bone boneName="plunger_1"/>
+        <bone boneName="plunger_2" rX="-179.999991348578" rZ="-179.999991348578" rotation="euler_zyx"/>
+        <bone boneName="plunger_3" rX="180.00000500895632" rY="89.999995674289" rZ="180.00000500895632" rotation="euler_zyx"/>
+        <bone boneName="plunger_4" rX="180.00000500895632" rY="-89.999995674289" rZ="180.00000500895632" rotation="euler_zyx"/>
+    </frame>
+</animation>

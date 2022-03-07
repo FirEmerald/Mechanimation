@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<effects>
+    <bone name="main">
+        <fluid index="0" margin="2.4414062E-4" name="fluid_in" sizeX="0.375" sizeY="0.75" sizeZ="0.625" tX="0.0625" tY="0.0625" tZ="-0.25"/>
+        <fluid index="1" margin="2.4414062E-4" name="water_out" sizeX="0.375" sizeY="0.3125" sizeZ="0.625" tX="-0.4375" tZ="-0.375"/>
+        <fluid index="3" margin="2.4414062E-4" name="fluid_out" sizeX="0.375" sizeY="0.6875" sizeZ="0.625" tX="-0.4375" tY="0.3125" tZ="-0.375"/>
+    </bone>
+</effects>

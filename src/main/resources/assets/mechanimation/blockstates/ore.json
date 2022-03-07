@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "variant=nickel":  { "model": "mechanimation:ore/nickel" },
+        "variant=copper":  { "model": "mechanimation:ore/copper" },
+        "variant=aluminum":  { "model": "mechanimation:ore/aluminum" },
+        "variant=tin":  { "model": "mechanimation:ore/tin" },
+        "variant=silver":  { "model": "mechanimation:ore/silver" },
+        "variant=tungsten":  { "model": "mechanimation:ore/tungsten" },
+        "variant=titanium":  { "model": "mechanimation:ore/titanium" },
+        "variant=sulfur":  { "model": "mechanimation:ore/sulfur" }
+    }
+}

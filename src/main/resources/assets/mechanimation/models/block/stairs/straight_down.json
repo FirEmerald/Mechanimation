@@ -1,0 +1,12 @@
+{
+	"parent": "mechanimation:block/stairs/straight",
+	"textures": {
+		"north": "#side",
+		"east": "#side",
+		"south": "#side",
+		"west": "#side",
+		"up": "#bottom",
+		"down": "#top",
+		"particle": "#side"
+	}
+}

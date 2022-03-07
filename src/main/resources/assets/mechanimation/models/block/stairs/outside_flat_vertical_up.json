@@ -1,0 +1,12 @@
+{
+	"parent": "mechanimation:block/stairs/outside_flat",
+	"textures": {
+		"north": "#top",
+		"east": "#side",
+		"south": "#bottom",
+		"west": "#side",
+		"up": "#side",
+		"down": "#side",
+		"particle": "#side"
+	}
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<effects>
+    <bone name="tray">
+        <item name="item" rX="90.0" rY="180.0" rotation="euler_zyx" scale="0.75" slot="0" tY="0.0859375" transformType="FIXED"/>
+    </bone>
+</effects>

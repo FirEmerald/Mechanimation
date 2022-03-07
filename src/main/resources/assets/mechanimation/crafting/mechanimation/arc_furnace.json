@@ -1,0 +1,119 @@
+{
+	"{metal}_from_shovel": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_shovel"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 144
+		}
+	},
+	"{metal}_from_hoe": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_hoe"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 288
+		}
+	},
+	"{metal}_from_sword": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_sword"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 288
+		}
+	},
+	"{metal}_from_axe": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_axe"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 432
+		}
+	},
+	"{metal}_from_pickaxe": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_pickaxe"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 432
+		}
+	},
+	"{metal}_from_boots": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_boots"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 576
+		}
+	},
+	"{metal}_from_helmet": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_helmet"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 720
+		}
+	},
+	"{metal}_from_leggings": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_leggings"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 1008
+		}
+	},
+	"{metal}_from_chestplate": {
+		"transformers": [
+			"vanilla_metals"
+		],
+		"type": "mechanimation:tool",
+		"input": {
+			"item": "minecraft:{metal_alt}_chestplate"
+		},
+		"output": {
+			"fluid": "{metal}",
+			"amount": 1152
+		}
+	}
+}

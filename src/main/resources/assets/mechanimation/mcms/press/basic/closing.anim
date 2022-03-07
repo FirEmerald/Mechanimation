@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="1.4500000476837158" loop="false" relative="false">
+    <frame frameTime="0.25">
+        <bone boneName="arm" rX="-6.0" rotation="euler_zyx" tY="0.03125" tZ="0.40625"/>
+    </frame>
+    <frame frameTime="0.5">
+        <bone boneName="arm" rX="-9.0" rotation="euler_zyx" tY="0.03125" tZ="0.40625"/>
+    </frame>
+    <frame frameTime="0.75">
+        <bone boneName="arm" rX="-13.0" rotation="euler_zyx" tY="0.03125" tZ="0.40625"/>
+    </frame>
+    <frame frameTime="1.0">
+        <bone boneName="arm" rX="-18.0" rotation="euler_zyx" tY="0.03125" tZ="0.40625"/>
+    </frame>
+    <frame frameTime="1.25">
+        <bone boneName="arm" rX="-30.0" rotation="euler_zyx" tY="0.03125" tZ="0.40625"/>
+    </frame>
+    <frame frameTime="1.45">
+        <bone boneName="tray" tY="0.46875"/>
+    </frame>
+</animation>

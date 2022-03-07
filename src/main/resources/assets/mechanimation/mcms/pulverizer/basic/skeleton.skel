@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="Base" rY="180.0" rotation="euler_zyx" tX="0.5" tZ="0.1875">
+        <bone name="Piston" tY="-0.25"/>
+    </bone>
+    <bone name="test1" tY="-1.5">
+        <bone name="test2" tY="1.0">
+            <bone name="test3" tY="1.0">
+                <bone name="test4" tY="1.0"/>
+            </bone>
+        </bone>
+    </bone>
+</skeleton>

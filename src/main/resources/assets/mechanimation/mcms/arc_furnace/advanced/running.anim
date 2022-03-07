@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation length="1.0" loop="false" relative="false">
+    <frame frameTime="0.5">
+        <bone boneName="arc_rod_right_rod" rX="-18.999999959540737" rotation="euler_zyx" tZ="-0.1875"/>
+        <bone boneName="arc_rod_back_rod" rX="-18.999999959540737" rotation="euler_zyx" tZ="-0.1875"/>
+        <bone boneName="arc_rod_left_rod" rX="-18.999999959540737" rotation="euler_zyx" tZ="-0.1875"/>
+    </frame>
+    <frame frameTime="1.0">
+        <bone boneName="arc_rod_right_rod" tZ="-0.1875"/>
+        <bone boneName="arc_rod_left" rX="180.00000500895632" rZ="180.00000500895632" rotation="euler_zyx" tY="0.78125" tZ="-0.4375"/>
+        <bone boneName="arc_rod_right" tY="0.78125" tZ="0.4375"/>
+        <bone boneName="arc_rod_back" rX="-8.537736462515939E-7" rY="90.00000250447816" rZ="2.845912238986771E-7" rotation="euler_zyx" tX="0.4375" tY="0.78125"/>
+        <bone boneName="arc_rod_back_rod" tZ="-0.1875"/>
+        <bone boneName="arc_rod_left_rod" tZ="-0.1875"/>
+    </frame>
+</animation>

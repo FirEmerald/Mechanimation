@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skeleton>
+    <bone name="root">
+        <bone name="plunger_3" rX="180.00000500895632" rY="89.999995674289" rZ="180.00000500895632" rotation="euler_zyx"/>
+        <bone name="plunger_2" rX="-179.999991348578" rZ="-179.999991348578" rotation="euler_zyx"/>
+        <bone name="plunger_4" rX="180.00000500895632" rY="-89.999995674289" rZ="180.00000500895632" rotation="euler_zyx"/>
+        <bone name="plunger_1"/>
+        <bone name="base"/>
+        <bone name="new fluid" tX="-0.5" tZ="-0.5"/>
+    </bone>
+</skeleton>

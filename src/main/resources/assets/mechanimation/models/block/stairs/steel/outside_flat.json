@@ -1,0 +1,6 @@
+{
+	"parent": "mechanimation:block/stairs/outside_flat_all",
+	"textures": {
+		"side": "mechanimation:blocks/metal_alloy/steel"
+	}
+}
