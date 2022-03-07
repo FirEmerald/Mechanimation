@@ -113,7 +113,6 @@ public class Main extends CoreModMainClass<CommonProxy> implements LoadingCallba
 	@Override
     public void onPreInitialization(FMLPreInitializationEvent event)
     {
-		ForgeChunkManager.setForcedChunkLoadingCallback(this, this);
 		Map<String, ModContainer> mods = Loader.instance().getIndexedModList();
 		for (ICompatProvider compatProvider : COMPAT_PROVIDERS)
 		{
@@ -126,6 +125,7 @@ public class Main extends CoreModMainClass<CommonProxy> implements LoadingCallba
 			}
 		}
 		super.onPreInitialization(event);
+		ForgeChunkManager.setForcedChunkLoadingCallback(this, this);
     }
 
 	@Override
