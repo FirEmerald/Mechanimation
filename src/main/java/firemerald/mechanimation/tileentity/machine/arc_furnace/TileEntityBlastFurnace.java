@@ -9,7 +9,7 @@ import firemerald.mechanimation.inventory.container.ContainerMachine;
 import firemerald.mechanimation.inventory.slot.SlotMachine;
 import firemerald.mechanimation.mcms.MCMSModel;
 import firemerald.mechanimation.mcms.MCMSTexture;
-import firemerald.mechanimation.tileentity.machine.base.IVerticalMachine;
+import firemerald.mechanimation.tileentity.machine.base.IModeledVerticalMachine;
 import firemerald.mechanimation.tileentity.machine.base.fluids.CommonFluidPredicates;
 import firemerald.mechanimation.tileentity.machine.base.fluids.FluidInventoryTemplate;
 import firemerald.mechanimation.tileentity.machine.base.fluids.FluidInventoryTemplateBuilder;
@@ -34,7 +34,7 @@ import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class TileEntityBlastFurnace extends TileEntitySteelingFurnaceBase<TileEntityBlastFurnace> implements IVerticalMachine
+public class TileEntityBlastFurnace extends TileEntitySteelingFurnaceBase<TileEntityBlastFurnace> implements IModeledVerticalMachine
 {
     public static final ResourceLocation BLAST_FURNACE_GUI_TEXTURES = new ResourceLocation(MechanimationAPI.MOD_ID, "textures/gui/container/blast_furnace.png");
 	public static final String

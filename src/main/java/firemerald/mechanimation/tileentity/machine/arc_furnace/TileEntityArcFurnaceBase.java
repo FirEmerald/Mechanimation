@@ -8,7 +8,7 @@ import firemerald.mechanimation.api.crafting.arc_furnace.IArcFurnaceRecipe;
 import firemerald.mechanimation.client.gui.inventory.IGuiElements;
 import firemerald.mechanimation.inventory.container.ContainerMachine;
 import firemerald.mechanimation.inventory.slot.SlotMachine;
-import firemerald.mechanimation.tileentity.machine.base.IOrientedMachine;
+import firemerald.mechanimation.tileentity.machine.base.IModeledOrientedMachine;
 import firemerald.mechanimation.tileentity.machine.base.RenderInfo;
 import firemerald.mechanimation.tileentity.machine.base.energy.CommonEnergyPredicates;
 import firemerald.mechanimation.tileentity.machine.base.energy.EnergyCapWrapper;
@@ -42,7 +42,7 @@ import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public abstract class TileEntityArcFurnaceBase<T extends TileEntityArcFurnaceBase<T>> extends TileEntitySteelingFurnaceBase<T> implements IOrientedMachine, IEnergyGuiMachine<T>, IFluxReceiver
+public abstract class TileEntityArcFurnaceBase<T extends TileEntityArcFurnaceBase<T>> extends TileEntitySteelingFurnaceBase<T> implements IModeledOrientedMachine, IEnergyGuiMachine<T>, IFluxReceiver
 {
     public static final ResourceLocation ARC_FURNACE_GUI_TEXTURES = new ResourceLocation(MechanimationAPI.MOD_ID, "textures/gui/container/arc_furnace.png");
 	public static final String
