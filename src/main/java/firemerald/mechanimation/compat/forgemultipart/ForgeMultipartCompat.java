@@ -21,6 +21,7 @@ import net.minecraftforge.client.event.TextureStitchEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.FMLCommonHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -43,6 +44,13 @@ public class ForgeMultipartCompat implements IFMLEventHandler
     	network.registerMessage(PipeEnergySyncPacket.Handler.class, PipeEnergySyncPacket.class, 0, Side.CLIENT);
     	network.registerMessage(PipeFluidSyncPacket.Handler.class, PipeFluidSyncPacket.class, 1, Side.CLIENT);
     	network.registerMessage(PipeItemsSyncPacket.Handler.class, PipeItemsSyncPacket.class, 2, Side.CLIENT);
+		MultipartTabs.init();
+	}
+	
+	@Override
+	public void onInitialization(FMLInitializationEvent event)
+	{
+		MultipartItems.initMultipart();
 	}
 	
 	@SubscribeEvent

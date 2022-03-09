@@ -14,8 +14,8 @@ import codechicken.multipart.TMultiPart;
 import codechicken.multipart.TileMultipart;
 import firemerald.api.core.function.FloatConsumer;
 import firemerald.mc4.api.capabilities.IThermalRenderer;
-import firemerald.mechanimation.Main;
 import firemerald.mechanimation.api.MechanimationAPI;
+import firemerald.mechanimation.compat.forgemultipart.ForgeMultipartCompat;
 import firemerald.mechanimation.compat.forgemultipart.MultipartItems;
 import firemerald.mechanimation.compat.forgemultipart.networking.PipeEnergySyncPacket;
 import net.minecraft.client.Minecraft;
@@ -219,7 +219,7 @@ public class PartEnergyPipe extends PartPipe implements ICapabilityProvider, ITh
 		PipeEnergySyncPacket packet = new PipeEnergySyncPacket(pos(), prevPower, curPower, nextPower, transferredEnergy, flow);
 		for (EntityPlayer player : world().playerEntities) if (player instanceof EntityPlayerMP)
 		{
-			if (player.getDistanceSq(this.pos()) < 4096.0D) Main.network().sendTo(packet, (EntityPlayerMP) player);
+			if (player.getDistanceSq(this.pos()) < 4096.0D) ForgeMultipartCompat.INSTANCE.network.sendTo(packet, (EntityPlayerMP) player);
 		}
 	}
 

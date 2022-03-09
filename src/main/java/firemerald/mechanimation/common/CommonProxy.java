@@ -30,6 +30,7 @@ import firemerald.mechanimation.init.MechanimationBlocks;
 import firemerald.mechanimation.init.MechanimationFluids;
 import firemerald.mechanimation.init.MechanimationParticles;
 import firemerald.mechanimation.init.MechanimationStats;
+import firemerald.mechanimation.init.MechanimationTabs;
 import firemerald.mechanimation.networking.client.MechanimationParticleSpawnPacket;
 import firemerald.mechanimation.networking.client.ServerSettingsSyncPacket;
 import firemerald.mechanimation.networking.client.TileGUIPacket;
@@ -309,6 +310,7 @@ public class CommonProxy implements IProxy
 		CraftingHelper.register(new ResourceLocation(MC4API.MOD_ID, "bucket_shaped"), new ShapedBucketIngredientRecipeFactory());
 		CraftingHelper.register(new ResourceLocation(MC4API.MOD_ID, "bucket_shapeless"), new ShapelessBucketIngredientRecipeFactory());
 		*/
+		MechanimationTabs.init();
     }
 
     public void loadConfig()

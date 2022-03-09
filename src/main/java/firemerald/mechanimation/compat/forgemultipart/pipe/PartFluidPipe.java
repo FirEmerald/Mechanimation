@@ -15,11 +15,11 @@ import codechicken.multipart.PartMap;
 import codechicken.multipart.TDynamicRenderPart;
 import codechicken.multipart.TMultiPart;
 import codechicken.multipart.TileMultipart;
-import firemerald.mechanimation.Main;
 import firemerald.mechanimation.api.MechanimationAPI;
 import firemerald.mechanimation.api.capabilities.Capabilities;
 import firemerald.mechanimation.api.crafting.FluidOrGasStack;
 import firemerald.mechanimation.client.gui.GuiUtils;
+import firemerald.mechanimation.compat.forgemultipart.ForgeMultipartCompat;
 import firemerald.mechanimation.compat.forgemultipart.ItemExtractor;
 import firemerald.mechanimation.compat.forgemultipart.MultipartItems;
 import firemerald.mechanimation.compat.forgemultipart.networking.PipeFluidSyncPacket;
@@ -306,7 +306,7 @@ public class PartFluidPipe extends PartExtractablePipe implements ICapabilityPro
 		PipeFluidSyncPacket packet = new PipeFluidSyncPacket(pos(), prevFluid, fluid, nextFluid, transferredFluid, flow);
 		for (EntityPlayer player : world().playerEntities) if (player instanceof EntityPlayerMP)
 		{
-			if (player.getDistanceSq(this.pos()) < 4096.0D) Main.network().sendTo(packet, (EntityPlayerMP) player);
+			if (player.getDistanceSq(this.pos()) < 4096.0D) ForgeMultipartCompat.INSTANCE.network.sendTo(packet, (EntityPlayerMP) player);
 		}
 	}
 

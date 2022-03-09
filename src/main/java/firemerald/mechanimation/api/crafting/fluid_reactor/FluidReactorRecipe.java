@@ -113,7 +113,7 @@ public class FluidReactorRecipe implements IFluidReactorRecipe
 				}
 				if (!matched) return false;
 			}
-			else return true;
+			else return false;
 		}
 		boolean match1 = false, match2 = false, match3 = false;
 		if (!inputFluidPrimary.isEmpty()) //requires primary fluid

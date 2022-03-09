@@ -14,9 +14,9 @@ import buildcraft.api.transport.pipe.PipeApi;
 import codechicken.lib.vec.Cuboid6;
 import codechicken.lib.vec.Vector3;
 import codechicken.multipart.TDynamicRenderPart;
-import firemerald.mechanimation.Main;
 import firemerald.mechanimation.api.MechanimationAPI;
 import firemerald.mechanimation.capabilities.PlayerSettings;
+import firemerald.mechanimation.compat.forgemultipart.ForgeMultipartCompat;
 import firemerald.mechanimation.compat.forgemultipart.ItemExtractor;
 import firemerald.mechanimation.compat.forgemultipart.MultipartItems;
 import firemerald.mechanimation.compat.forgemultipart.networking.PipeItemsSyncPacket;
@@ -162,7 +162,7 @@ public class PartItemPipe extends PartExtractablePipe implements TDynamicRenderP
 				if (player.getDistanceSq(this.pos()) < 4096.0D)
 				{
 					PlayerSettings settings = player.getCapability(PlayerSettings.playerSettings, null);
-					if (settings == null || settings.viewItemsInPipes) Main.network().sendTo(packet, (EntityPlayerMP) player);
+					if (settings == null || settings.viewItemsInPipes) ForgeMultipartCompat.INSTANCE.network.sendTo(packet, (EntityPlayerMP) player);
 				}
 			}
 		}
