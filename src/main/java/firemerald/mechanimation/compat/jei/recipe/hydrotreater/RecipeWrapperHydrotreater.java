@@ -36,7 +36,7 @@ public class RecipeWrapperHydrotreater extends RecipeWrapperFluxReciever
 		ingredients.setInputLists(JEICompatPlugin.TYPE_FLUID, inputs);
 		List<List<FluidOrGasStack>> outputs = new ArrayList<>();
 		outputs.add(Collections.singletonList(recipe.getFluidOutput()));
-		outputs.add(Collections.singletonList(FluidOrGasStack.forGas(new GasStack(MechanimationFluids.sodium, recipe.getRequiredHydrogen()))));
+		outputs.add(Collections.singletonList(FluidOrGasStack.forGas(new GasStack(MechanimationFluids.HYDROGEN_SULFIDE, recipe.getRequiredHydrogen()))));
 		ingredients.setOutputLists(JEICompatPlugin.TYPE_FLUID, outputs);
 	}
 
