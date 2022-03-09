@@ -7,11 +7,6 @@ import firemerald.mechanimation.api.util.APIUtils.BlockOperationTemp;
 import firemerald.mechanimation.blocks.ICustomBlockHighlight;
 import firemerald.mechanimation.client.renderer.IBlockHighlight;
 import firemerald.mechanimation.compat.mekanism.CompatProviderMekanism;
-import firemerald.mechanimation.init.MechanimationItems;
-import firemerald.mechanimation.multipart.pipe.EnumPipeTier;
-import firemerald.mechanimation.multipart.pipe.PartEnergyPipe;
-import firemerald.mechanimation.multipart.pipe.PartFluidPipe;
-import firemerald.mechanimation.multipart.pipe.PartItemPipe;
 import mekanism.api.gas.GasRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -29,7 +24,6 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.event.ClickEvent;
 import net.minecraft.util.text.event.HoverEvent;
-import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.client.event.DrawBlockHighlightEvent;
 import net.minecraftforge.client.event.TextureStitchEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
@@ -44,12 +38,6 @@ import net.minecraftforge.fml.common.versioning.VersionRange;
 
 public class ClientEventHandler
 {
-    @SubscribeEvent
-    public void registerItemColors(ColorHandlerEvent.Item event)
-    {
-    	MechanimationItems.registerColors(event.getItemColors());
-    }
-
 	@SubscribeEvent
 	public void onClientTick(ClientTickEvent event)
 	{
@@ -105,25 +93,13 @@ public class ClientEventHandler
     public void onTextureStitchPre(TextureStitchEvent.Pre event)
     {
 		TextureMap map = event.getMap();
-		for (EnumPipeTier tier : EnumPipeTier.values()) map.registerSprite(tier.iconRL);
 		if (!CompatProviderMekanism.INSTANCE.isPresent()) GasRegistry.getRegisteredGasses().forEach(gas -> gas.registerIcon(map));
-		map.registerSprite(PartItemPipe.ICON);
-		map.registerSprite(PartItemPipe.EXTRACTOR_ICON);
-		map.registerSprite(PartEnergyPipe.ICON);
-		map.registerSprite(PartFluidPipe.ICON);
-		map.registerSprite(PartFluidPipe.EXTRACTOR_ICON);
     }
 
 	@SubscribeEvent
 	public void onTextureStitchPost(TextureStitchEvent.Post event)
 	{
 		TextureMap map = event.getMap();
-		for (EnumPipeTier tier : EnumPipeTier.values()) tier.icon = map.getAtlasSprite(tier.iconRL.toString());
-		PartItemPipe.icon = map.getAtlasSprite(PartItemPipe.ICON.toString());
-		PartItemPipe.extractor_icon = map.getAtlasSprite(PartItemPipe.EXTRACTOR_ICON.toString());
-		PartEnergyPipe.icon = map.getAtlasSprite(PartEnergyPipe.ICON.toString());
-		PartFluidPipe.icon = map.getAtlasSprite(PartFluidPipe.ICON.toString());
-		PartFluidPipe.extractor_icon = map.getAtlasSprite(PartFluidPipe.EXTRACTOR_ICON.toString());
 		if (!CompatProviderMekanism.INSTANCE.isPresent()) GasRegistry.getRegisteredGasses().forEach(gas -> gas.updateIcon(map));
 	}
 

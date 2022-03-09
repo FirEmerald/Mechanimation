@@ -22,18 +22,10 @@ import firemerald.mechanimation.blocks.machine.BlockPulverizer;
 import firemerald.mechanimation.items.ItemBlockSubtyped;
 import firemerald.mechanimation.items.ItemCarbonFiberArmor;
 import firemerald.mechanimation.items.ItemCraftingMaterial;
-import firemerald.mechanimation.items.ItemExtractor;
 import firemerald.mechanimation.items.ItemMachine;
 import firemerald.mechanimation.items.ItemMechanimationSlab;
 import firemerald.mechanimation.items.ItemVerticalMachine;
-import firemerald.mechanimation.multipart.pipe.ItemPartEnergyPipe;
-import firemerald.mechanimation.multipart.pipe.ItemPartFluidPipe;
-import firemerald.mechanimation.multipart.pipe.ItemPartItemPipe;
-import firemerald.mechanimation.multipart.pipe.ItemPartPipe;
-import net.minecraft.client.renderer.color.IItemColor;
-import net.minecraft.client.renderer.color.ItemColors;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
@@ -81,10 +73,6 @@ public class MechanimationItems
 	public static final ItemMachine<BlockArcFurnace> ARC_FURNACE = new ItemMachine<>(MechanimationBlocks.ARC_FURNACE);
 	public static final ItemMachine<BlockCastingTable> CASTING_TABLE = new ItemMachine<>(MechanimationBlocks.CASTING_TABLE);
 	public static final ItemMachine<BlockAssemblyTerminal> ASSEMBLY_TERMINAL = new ItemMachine<>(MechanimationBlocks.ASSEMBLY_TERMINAL, true);
-	public static final ItemExtractor EXTRACTOR = new ItemExtractor();
-	public static final ItemPartItemPipe ITEM_PIPE = new ItemPartItemPipe();
-	public static final ItemPartEnergyPipe ENERGY_PIPE = new ItemPartEnergyPipe();
-	public static final ItemPartFluidPipe FLUID_PIPE = new ItemPartFluidPipe();
 
 	public static void init(IForgeRegistry<Item> registry)
 	{
@@ -124,10 +112,6 @@ public class MechanimationItems
 		InitFunctions.addItemBlock(ARC_FURNACE, registry);
 		InitFunctions.addItemBlock(CASTING_TABLE, registry);
 		InitFunctions.addItemBlock(ASSEMBLY_TERMINAL, registry);
-		InitFunctions.addItem(EXTRACTOR, "extractor", registry);
-		InitFunctions.addItem(ITEM_PIPE, "item_pipe", registry);
-		InitFunctions.addItem(ENERGY_PIPE, "energy_pipe", registry);
-		InitFunctions.addItem(FLUID_PIPE, "fluid_pipe", registry);
 
 		ItemCarbonFiberArmor.MATERIAL.setRepairItem(new ItemStack(CRAFTING_MATERIAL, 1, ItemCraftingMaterial.CARBON_FIBER));
 
@@ -207,25 +191,6 @@ public class MechanimationItems
     	OreDictionary.registerOre("paneGlassHardened", REINFORCED_GLASS_PANE);
     }
 
-    @SideOnly(Side.CLIENT)
-    public static void registerColors(ItemColors colors)
-    {
-    	colors.registerItemColorHandler(new IItemColor() {
-			@Override
-			public int colorMultiplier(ItemStack stack, int tintIndex)
-			{
-				if (tintIndex > 0) return -1;
-				else
-				{
-					ItemPartPipe pipe = (ItemPartPipe) stack.getItem();
-					EnumDyeColor color = pipe.getColor(stack);
-					return color == null ? pipe.getDefaultColor() : color.getColorValue();
-				}
-			}
-
-    	}, ITEM_PIPE, ENERGY_PIPE, FLUID_PIPE);
-    }
-
 	@SideOnly(Side.CLIENT)
 	public static void registerModels()
 	{
@@ -265,9 +230,5 @@ public class MechanimationItems
 		InitFunctions.registerItemBlockModels(ARC_FURNACE);
 		InitFunctions.registerItemBlockModels(CASTING_TABLE);
 		InitFunctions.registerItemBlockModels(ASSEMBLY_TERMINAL);
-		InitFunctions.registerItemModels(EXTRACTOR);
-		InitFunctions.registerItemModels(ITEM_PIPE);
-		InitFunctions.registerItemModels(ENERGY_PIPE);
-		InitFunctions.registerItemModels(FLUID_PIPE);
 	}
 }

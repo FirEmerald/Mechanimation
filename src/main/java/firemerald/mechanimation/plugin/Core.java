@@ -40,9 +40,9 @@ public class Core extends DummyModContainer
     	METADATA.name = "Mechanimation";
     	METADATA.version = Plugin.MECHANIMATION_VERSION;
     	METADATA.logoFile = "assets/mechanimation/textures/logo.png";
-    	METADATA.dependencies.add(new URLArtifactVersion("Code Chicken Lib", "codechickenlib", true, "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/files/all?filter-game-version=1738749986%3a628"));
+    	//METADATA.dependencies.add(new URLArtifactVersion("Code Chicken Lib", "codechickenlib", true, "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/files/all?filter-game-version=1738749986%3a628"));
     	METADATA.dependencies.add(new URLArtifactVersion("CraftLoader", "craftloader", true, "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/files/all?filter-game-version=1738749986%3a628")); //TODO mod URL
-    	METADATA.dependencies.add(new URLArtifactVersion("Forge Multipart CBE", "forgemultipartcbe", true, "https://www.curseforge.com/minecraft/mc-mods/cb-multipart/files/all?filter-game-version=1738749986%3a628"));
+    	//METADATA.dependencies.add(new URLArtifactVersion("Forge Multipart CBE", "forgemultipartcbe", true, "https://www.curseforge.com/minecraft/mc-mods/cb-multipart/files/all?filter-game-version=1738749986%3a628"));
     	METADATA.dependants.add(new DefaultArtifactVersion("jaopca", true)); //must run before JAOPCA
 	}
 	private static Core instance;

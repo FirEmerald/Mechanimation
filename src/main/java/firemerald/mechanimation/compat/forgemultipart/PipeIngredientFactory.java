@@ -1,12 +1,12 @@
-package firemerald.mechanimation.util.crafting;
+package firemerald.mechanimation.compat.forgemultipart;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
 
 import firemerald.craftloader.api.CraftLoaderAPI;
-import firemerald.mechanimation.multipart.pipe.EnumPipeTier;
-import firemerald.mechanimation.multipart.pipe.ItemPartPipe;
+import firemerald.mechanimation.compat.forgemultipart.pipe.EnumPipeTier;
+import firemerald.mechanimation.compat.forgemultipart.pipe.ItemPartPipe;
 import firemerald.mechanimation.util.Utils;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;

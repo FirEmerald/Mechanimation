@@ -1,4 +1,4 @@
-package firemerald.mechanimation.multipart.pipe;
+package firemerald.mechanimation.compat.forgemultipart.pipe;
 
 import firemerald.api.core.client.Translator;
 import firemerald.mechanimation.api.MechanimationAPI;

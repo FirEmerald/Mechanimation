@@ -1,4 +1,4 @@
-package firemerald.mechanimation.multipart.pipe;
+package firemerald.mechanimation.compat.forgemultipart.pipe;
 
 import java.util.Random;
 
@@ -16,8 +16,8 @@ import firemerald.api.core.function.FloatConsumer;
 import firemerald.mc4.api.capabilities.IThermalRenderer;
 import firemerald.mechanimation.Main;
 import firemerald.mechanimation.api.MechanimationAPI;
-import firemerald.mechanimation.init.MechanimationItems;
-import firemerald.mechanimation.networking.client.PipeEnergySyncPacket;
+import firemerald.mechanimation.compat.forgemultipart.MultipartItems;
+import firemerald.mechanimation.compat.forgemultipart.networking.PipeEnergySyncPacket;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
@@ -297,7 +297,7 @@ public class PartEnergyPipe extends PartPipe implements ICapabilityProvider, ITh
 	@Override
 	public ItemPartPipe getTheItem()
 	{
-		return MechanimationItems.ENERGY_PIPE;
+		return MultipartItems.ENERGY_PIPE;
 	}
 
 	@Override

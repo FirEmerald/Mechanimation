@@ -1,11 +1,11 @@
-package firemerald.mechanimation.multipart.pipe;
+package firemerald.mechanimation.compat.forgemultipart.pipe;
 
 import codechicken.lib.vec.Vector3;
 import codechicken.multipart.TMultiPart;
 import firemerald.api.core.client.Translator;
 import firemerald.api.core.items.ICustomSubtypes;
-import firemerald.mechanimation.init.MechanimationTabs;
-import firemerald.mechanimation.multipart.ItemPart;
+import firemerald.mechanimation.compat.forgemultipart.ItemPart;
+import firemerald.mechanimation.compat.forgemultipart.MultipartTabs;
 import firemerald.mechanimation.util.Utils;
 import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -26,7 +26,7 @@ public abstract class ItemPartPipe extends ItemPart implements ICustomSubtypes
 	public ItemPartPipe()
 	{
 		super();
-		this.setCreativeTab(MechanimationTabs.PIPES);
+		this.setCreativeTab(MultipartTabs.PIPES);
 		this.setHasSubtypes(true);
 	}
 

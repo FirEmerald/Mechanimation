@@ -1,9 +1,5 @@
 package firemerald.mechanimation.init;
 
-import java.util.Arrays;
-
-import codechicken.microblock.BlockMicroMaterial;
-import codechicken.multipart.MultiPartRegistry;
 import firemerald.api.core.InitFunctions;
 import firemerald.mechanimation.blocks.BlockAsphalt;
 import firemerald.mechanimation.blocks.BlockCustomFluid;
@@ -34,10 +30,6 @@ import firemerald.mechanimation.blocks.machine.BlockMeroxTreater;
 import firemerald.mechanimation.blocks.machine.BlockPress;
 import firemerald.mechanimation.blocks.machine.BlockPulverizer;
 import firemerald.mechanimation.compat.tconstruct.CompatProviderTConstruct;
-import firemerald.mechanimation.multipart.MechanimationPartFactory;
-import firemerald.mechanimation.multipart.pipe.PartEnergyPipe;
-import firemerald.mechanimation.multipart.pipe.PartFluidPipe;
-import firemerald.mechanimation.multipart.pipe.PartItemPipe;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -165,29 +157,5 @@ public class MechanimationBlocks
 			InitFunctions.addBlock(liquidSilver = new BlockCustomFluid(MechanimationFluids.liquidSilver, Material.LAVA), "liquid_silver", registry);
 			InitFunctions.addBlock(liquidSteel = new BlockCustomFluid(MechanimationFluids.liquidSteel, Material.LAVA), "liquid_steel", registry);
 		}
-
-		BlockMicroMaterial.createAndRegister(NICKEL_ORE);
-		BlockMicroMaterial.createAndRegister(COPPER_ORE);
-		BlockMicroMaterial.createAndRegister(ALUMINUM_ORE);
-		BlockMicroMaterial.createAndRegister(TIN_ORE);
-		BlockMicroMaterial.createAndRegister(SILVER_ORE);
-		BlockMicroMaterial.createAndRegister(TUNGSTEN_ORE);
-		BlockMicroMaterial.createAndRegister(TITANIUM_ORE);
-		BlockMicroMaterial.createAndRegister(SULFUR_ORE);
-		BlockMicroMaterial.createAndRegister(METAL_GRATE_BLOCK);
-		BlockMicroMaterial.createAndRegister(NICKEL_BLOCK);
-		BlockMicroMaterial.createAndRegister(COPPER_BLOCK);
-		BlockMicroMaterial.createAndRegister(ALUMINUM_BLOCK);
-		BlockMicroMaterial.createAndRegister(TIN_BLOCK);
-		BlockMicroMaterial.createAndRegister(SILVER_BLOCK);
-		BlockMicroMaterial.createAndRegister(TITANIUM_BLOCK);
-		BlockMicroMaterial.createAndRegister(STEEL_BLOCK);
-		BlockMicroMaterial.createAndRegister(REINFORCED_GLASS);
-		BlockMicroMaterial.createAndRegister(ASPHALT);
-	}
-
-	public static void initMultipart()
-	{
-		MultiPartRegistry.registerParts(new MechanimationPartFactory(), Arrays.asList(PartItemPipe.TYPE, PartEnergyPipe.TYPE, PartFluidPipe.TYPE));
 	}
 }

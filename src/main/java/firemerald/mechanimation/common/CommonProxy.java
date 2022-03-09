@@ -31,9 +31,6 @@ import firemerald.mechanimation.init.MechanimationFluids;
 import firemerald.mechanimation.init.MechanimationParticles;
 import firemerald.mechanimation.init.MechanimationStats;
 import firemerald.mechanimation.networking.client.MechanimationParticleSpawnPacket;
-import firemerald.mechanimation.networking.client.PipeEnergySyncPacket;
-import firemerald.mechanimation.networking.client.PipeFluidSyncPacket;
-import firemerald.mechanimation.networking.client.PipeItemsSyncPacket;
 import firemerald.mechanimation.networking.client.ServerSettingsSyncPacket;
 import firemerald.mechanimation.networking.client.TileGUIPacket;
 import firemerald.mechanimation.networking.server.MachineGUIPacket;
@@ -291,9 +288,6 @@ public class CommonProxy implements IProxy
     	SimpleNetworkWrapper network = Main.instance().network = NetworkRegistry.INSTANCE.newSimpleChannel("mechanimation");
 		int p = 0;
 		network.registerMessage(ServerSettingsSyncPacket.Handler.class, ServerSettingsSyncPacket.class, p++, Side.CLIENT);
-		network.registerMessage(PipeItemsSyncPacket.Handler.class, PipeItemsSyncPacket.class, p++, Side.CLIENT);
-		network.registerMessage(PipeEnergySyncPacket.Handler.class, PipeEnergySyncPacket.class, p++, Side.CLIENT);
-		network.registerMessage(PipeFluidSyncPacket.Handler.class, PipeFluidSyncPacket.class, p++, Side.CLIENT);
 		network.registerMessage(TileGUIPacket.Handler.class, TileGUIPacket.class, p++, Side.CLIENT);
 		network.registerMessage(MechanimationParticleSpawnPacket.Handler.class, MechanimationParticleSpawnPacket.class, p++, Side.CLIENT);
 
@@ -351,7 +345,6 @@ public class CommonProxy implements IProxy
 		GameRegistry.registerTileEntity(TileEntityAssemblyTerminalPart.class, new ResourceLocation(MechanimationAPI.MOD_ID, "assembly_terminal_multiblock"));
 		GameRegistry.registerTileEntity(TileEntityMultiblockFluxReceiver.class, new ResourceLocation(MechanimationAPI.MOD_ID, "multiblock_flux_receiver"));
 		GameRegistry.registerWorldGenerator(WorldGenCustom.INSTANCE, 0);
-		MechanimationBlocks.initMultipart();
 		MechanimationStats.init();
 	}
 

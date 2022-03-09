@@ -9,6 +9,10 @@ import firemerald.mechanimation.api.crafting.FluidOrGasStack;
 import firemerald.mechanimation.api.util.Rectangle;
 import firemerald.mechanimation.client.gui.inventory.GuiMachine;
 import firemerald.mechanimation.client.gui.inventory.IGuiElements;
+import firemerald.mechanimation.compat.forgemultipart.CompatProviderForgeMultipart;
+import firemerald.mechanimation.compat.forgemultipart.MultipartItems;
+import firemerald.mechanimation.compat.forgemultipart.pipe.EnumPipeTier;
+import firemerald.mechanimation.compat.forgemultipart.pipe.ItemPartPipe;
 import firemerald.mechanimation.compat.jei.fluid.FluidOrGasStackHelper;
 import firemerald.mechanimation.compat.jei.fluid.FluidOrGasStackRenderer;
 import firemerald.mechanimation.compat.jei.gas.GasStackHelper;
@@ -30,9 +34,6 @@ import firemerald.mechanimation.compat.jei.recipe.press.RecipeCategoryPress;
 import firemerald.mechanimation.compat.jei.recipe.pulverizer.RecipeCategoryPulverizer;
 import firemerald.mechanimation.compat.jei.transfer.MachineRecipeTransferHandler;
 import firemerald.mechanimation.compat.mekanism.CompatProviderMekanism;
-import firemerald.mechanimation.init.MechanimationItems;
-import firemerald.mechanimation.multipart.pipe.EnumPipeTier;
-import firemerald.mechanimation.multipart.pipe.ItemPartPipe;
 import mekanism.api.gas.Gas;
 import mekanism.api.gas.GasRegistry;
 import mekanism.api.gas.GasStack;
@@ -162,14 +163,17 @@ public class JEICompatPlugin implements IModPlugin, IGuiElements
     @Override
     public void registerItemSubtypes(ISubtypeRegistry registry)
     {
-    	ISubtypeInterpreter PIPE_TIER = (stack) -> {
-    		ItemPartPipe pipe = (ItemPartPipe) stack.getItem();
-    		EnumPipeTier tier = pipe.getTier(stack);
-    		EnumDyeColor color = pipe.getColor(stack);
-    		return color == null ? (tier.name().toLowerCase(Locale.ENGLISH)) : (tier.name().toLowerCase(Locale.ENGLISH) + "_" + color.name().toLowerCase(Locale.ENGLISH));
-    	};
-        registry.registerSubtypeInterpreter(MechanimationItems.ITEM_PIPE, PIPE_TIER);
-        registry.registerSubtypeInterpreter(MechanimationItems.ENERGY_PIPE, PIPE_TIER);
-        registry.registerSubtypeInterpreter(MechanimationItems.FLUID_PIPE, PIPE_TIER);
+    	if (CompatProviderForgeMultipart.INSTANCE.isPresent())
+    	{
+        	ISubtypeInterpreter PIPE_TIER = (stack) -> {
+        		ItemPartPipe pipe = (ItemPartPipe) stack.getItem();
+        		EnumPipeTier tier = pipe.getTier(stack);
+        		EnumDyeColor color = pipe.getColor(stack);
+        		return color == null ? (tier.name().toLowerCase(Locale.ENGLISH)) : (tier.name().toLowerCase(Locale.ENGLISH) + "_" + color.name().toLowerCase(Locale.ENGLISH));
+        	};
+    		registry.registerSubtypeInterpreter(MultipartItems.ITEM_PIPE, PIPE_TIER);
+    		registry.registerSubtypeInterpreter(MultipartItems.ENERGY_PIPE, PIPE_TIER);
+    		registry.registerSubtypeInterpreter(MultipartItems.FLUID_PIPE, PIPE_TIER);
+    	}
     }
 }

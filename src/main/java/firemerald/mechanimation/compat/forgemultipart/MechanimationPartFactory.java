@@ -1,10 +1,10 @@
-package firemerald.mechanimation.multipart;
+package firemerald.mechanimation.compat.forgemultipart;
 
 import codechicken.multipart.TMultiPart;
 import codechicken.multipart.api.IPartFactory;
-import firemerald.mechanimation.multipart.pipe.PartEnergyPipe;
-import firemerald.mechanimation.multipart.pipe.PartFluidPipe;
-import firemerald.mechanimation.multipart.pipe.PartItemPipe;
+import firemerald.mechanimation.compat.forgemultipart.pipe.PartEnergyPipe;
+import firemerald.mechanimation.compat.forgemultipart.pipe.PartFluidPipe;
+import firemerald.mechanimation.compat.forgemultipart.pipe.PartItemPipe;
 import net.minecraft.util.ResourceLocation;
 
 public class MechanimationPartFactory implements IPartFactory

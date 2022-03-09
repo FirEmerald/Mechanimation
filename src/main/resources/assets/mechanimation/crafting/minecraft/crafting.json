@@ -956,6 +956,12 @@
 	},
 	
 	"{color}_{pipe_tier}_item_pipe": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"transformers": [
 			"colors",
 			"pipe_tiers"
@@ -982,6 +988,12 @@
 		}
 	},
 	"{pipe_tier}_fluid_pipe_from_{pipe_tier}_item_pipe": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"transformers": [
 			"pipe_tiers"
 		],
@@ -1007,6 +1019,12 @@
 		}
 	},
 	"{color}_{pipe_tier}_fluid_pipe": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"transformers": [
 			"colors",
 			"pipe_tiers"
@@ -1033,6 +1051,12 @@
 		}
 	},
 	"{color}_{pipe_tier}_fluid_pipe_from_{color}_{pipe_tier}_item_pipe": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"transformers": [
 			"colors",
 			"pipe_tiers"
@@ -1059,6 +1083,12 @@
 		}
 	},
 	"{color}_{pipe_tier}_fluid_pipe_from_{pipe_tier}_item_pipe": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"transformers": [
 			"colors",
 			"pipe_tiers"
@@ -1085,6 +1115,12 @@
 		}
 	},
 	"{pipe_tier}_energy_pipe_from_{pipe_tier}_item_pipe": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"transformers": [
 			"pipe_tiers"
 		],
@@ -1110,6 +1146,12 @@
 		}
 	},
 	"{color}_{pipe_tier}_energy_pipe": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"transformers": [
 			"colors",
 			"pipe_tiers"
@@ -1136,6 +1178,12 @@
 		}
 	},
 	"{color}_{pipe_tier}_energy_pipe_from_{color}_{pipe_tier}_item_pipe": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"transformers": [
 			"colors",
 			"pipe_tiers"
@@ -1163,6 +1211,12 @@
 	},
 	
 	"item_extractor": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"type": "craftloader:crafting_shaped",
 		"group": "extractor",
 		"pattern": [
@@ -1204,6 +1258,12 @@
 		}
 	},
 	"fluid_extractor": {
+		"conditions": [
+			{
+				"type": "forge:mod_loaded",
+				"modid": "forgemultipartcbe"
+			}
+		],
 		"type": "craftloader:crafting_shapeless",
 		"group": "extractor",
 		"ingredients": [

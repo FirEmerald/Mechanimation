@@ -1,7 +1,6 @@
-package firemerald.mechanimation.items;
+package firemerald.mechanimation.compat.forgemultipart;
 
 import firemerald.api.core.items.IItemSubtyped;
-import firemerald.mechanimation.init.MechanimationTabs;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -16,7 +15,7 @@ public class ItemExtractor extends Item implements IItemSubtyped
 	{
         this.setMaxDamage(0);
 		this.setHasSubtypes(true);
-		this.setCreativeTab(MechanimationTabs.PIPES);
+		this.setCreativeTab(MultipartTabs.PIPES);
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package firemerald.mechanimation.multipart.pipe;
+package firemerald.mechanimation.compat.forgemultipart.pipe;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,10 +17,10 @@ import codechicken.multipart.TDynamicRenderPart;
 import firemerald.mechanimation.Main;
 import firemerald.mechanimation.api.MechanimationAPI;
 import firemerald.mechanimation.capabilities.PlayerSettings;
+import firemerald.mechanimation.compat.forgemultipart.ItemExtractor;
+import firemerald.mechanimation.compat.forgemultipart.MultipartItems;
+import firemerald.mechanimation.compat.forgemultipart.networking.PipeItemsSyncPacket;
 import firemerald.mechanimation.config.ClientConfig;
-import firemerald.mechanimation.init.MechanimationItems;
-import firemerald.mechanimation.items.ItemExtractor;
-import firemerald.mechanimation.networking.client.PipeItemsSyncPacket;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.OpenGlHelper;
@@ -177,7 +177,7 @@ public class PartItemPipe extends PartExtractablePipe implements TDynamicRenderP
 	@Override
 	public ItemPartPipe getTheItem()
 	{
-		return MechanimationItems.ITEM_PIPE;
+		return MultipartItems.ITEM_PIPE;
 	}
 
 	@Override
@@ -371,13 +371,13 @@ public class PartItemPipe extends PartExtractablePipe implements TDynamicRenderP
 	@Override
 	public boolean isValidExtractor(ItemStack item)
 	{
-		return item.getItem() == MechanimationItems.EXTRACTOR && item.getItemDamage() == ItemExtractor.ID_ITEM;
+		return item.getItem() == MultipartItems.EXTRACTOR && item.getItemDamage() == ItemExtractor.ID_ITEM;
 	}
 
 	@Override
 	public ItemStack getExtractorItem(int side)
 	{
-		return new ItemStack(MechanimationItems.EXTRACTOR, 1, ItemExtractor.ID_ITEM);
+		return new ItemStack(MultipartItems.EXTRACTOR, 1, ItemExtractor.ID_ITEM);
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package firemerald.mechanimation.multipart.pipe;
+package firemerald.mechanimation.compat.forgemultipart.pipe;
 
 import java.util.ArrayList;
 import java.util.List;

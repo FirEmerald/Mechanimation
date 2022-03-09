@@ -1,4 +1,4 @@
-package firemerald.mechanimation.multipart.pipe;
+package firemerald.mechanimation.compat.forgemultipart.pipe;
 
 import java.util.Random;
 
@@ -20,9 +20,9 @@ import firemerald.mechanimation.api.MechanimationAPI;
 import firemerald.mechanimation.api.capabilities.Capabilities;
 import firemerald.mechanimation.api.crafting.FluidOrGasStack;
 import firemerald.mechanimation.client.gui.GuiUtils;
-import firemerald.mechanimation.init.MechanimationItems;
-import firemerald.mechanimation.items.ItemExtractor;
-import firemerald.mechanimation.networking.client.PipeFluidSyncPacket;
+import firemerald.mechanimation.compat.forgemultipart.ItemExtractor;
+import firemerald.mechanimation.compat.forgemultipart.MultipartItems;
+import firemerald.mechanimation.compat.forgemultipart.networking.PipeFluidSyncPacket;
 import mekanism.api.gas.Gas;
 import mekanism.api.gas.GasStack;
 import mekanism.api.gas.GasTankInfo;
@@ -478,7 +478,7 @@ public class PartFluidPipe extends PartExtractablePipe implements ICapabilityPro
 	@Override
 	public ItemPartPipe getTheItem()
 	{
-		return MechanimationItems.FLUID_PIPE;
+		return MultipartItems.FLUID_PIPE;
 	}
 
 	@Override
@@ -1021,13 +1021,13 @@ public class PartFluidPipe extends PartExtractablePipe implements ICapabilityPro
 	@Override
 	public boolean isValidExtractor(ItemStack item)
 	{
-		return item.getItem() == MechanimationItems.EXTRACTOR && item.getItemDamage() == ItemExtractor.ID_FLUID;
+		return item.getItem() == MultipartItems.EXTRACTOR && item.getItemDamage() == ItemExtractor.ID_FLUID;
 	}
 
 	@Override
 	public ItemStack getExtractorItem(int side)
 	{
-		return new ItemStack(MechanimationItems.EXTRACTOR, 1, ItemExtractor.ID_FLUID);
+		return new ItemStack(MultipartItems.EXTRACTOR, 1, ItemExtractor.ID_FLUID);
 	}
 
 	@Override

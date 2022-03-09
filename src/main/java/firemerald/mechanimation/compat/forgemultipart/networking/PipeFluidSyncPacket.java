@@ -1,4 +1,4 @@
-package firemerald.mechanimation.networking.client;
+package firemerald.mechanimation.compat.forgemultipart.networking;
 
 import codechicken.multipart.PartMap;
 import codechicken.multipart.TMultiPart;
@@ -6,7 +6,7 @@ import codechicken.multipart.TileMultipart;
 import firemerald.api.core.networking.ClientPacket;
 import firemerald.mechanimation.api.crafting.FluidOrGasStack;
 import firemerald.mechanimation.client.ClientState;
-import firemerald.mechanimation.multipart.pipe.PartFluidPipe;
+import firemerald.mechanimation.compat.forgemultipart.pipe.PartFluidPipe;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.NBTTagCompound;

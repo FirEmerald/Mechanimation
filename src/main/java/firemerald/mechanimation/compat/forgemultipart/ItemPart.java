@@ -1,4 +1,4 @@
-package firemerald.mechanimation.multipart;
+package firemerald.mechanimation.compat.forgemultipart;
 
 import java.util.List;
 

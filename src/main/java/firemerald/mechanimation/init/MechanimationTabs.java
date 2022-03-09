@@ -2,7 +2,6 @@ package firemerald.mechanimation.init;
 
 import firemerald.mechanimation.blocks.BlockOre;
 import firemerald.mechanimation.items.ItemCraftingMaterial;
-import firemerald.mechanimation.multipart.pipe.EnumPipeTier;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
@@ -50,15 +49,6 @@ public class MechanimationTabs
 		public ItemStack getTabIconItem()
 		{
 			return new ItemStack(MechanimationItems.PRESS, 1, 0);
-		}
-	};
-
-	public static final CreativeTabs PIPES = new CreativeTabs("mechanimation.pipes")
-	{
-		@Override
-		public ItemStack getTabIconItem()
-		{
-			return MechanimationItems.ITEM_PIPE.setTier(new ItemStack(MechanimationItems.ITEM_PIPE), EnumPipeTier.STONE);
 		}
 	};
 

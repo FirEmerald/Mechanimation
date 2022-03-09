@@ -1,12 +1,12 @@
-package firemerald.mechanimation.networking.client;
+package firemerald.mechanimation.compat.forgemultipart.networking;
 
 import codechicken.multipart.PartMap;
 import codechicken.multipart.TMultiPart;
 import codechicken.multipart.TileMultipart;
 import firemerald.api.core.networking.ClientPacket;
 import firemerald.mechanimation.client.ClientState;
-import firemerald.mechanimation.multipart.pipe.PartItemPipe;
-import firemerald.mechanimation.multipart.pipe.TravelingStack;
+import firemerald.mechanimation.compat.forgemultipart.pipe.PartItemPipe;
+import firemerald.mechanimation.compat.forgemultipart.pipe.TravelingStack;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;
 import net.minecraft.tileentity.TileEntity;

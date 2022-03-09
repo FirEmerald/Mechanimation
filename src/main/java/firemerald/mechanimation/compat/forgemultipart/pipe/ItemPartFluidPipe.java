@@ -1,4 +1,4 @@
-package firemerald.mechanimation.multipart.pipe;
+package firemerald.mechanimation.compat.forgemultipart.pipe;
 
 import java.util.List;
 
@@ -12,18 +12,12 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class ItemPartEnergyPipe extends ItemPartPipe
+public class ItemPartFluidPipe extends ItemPartPipe
 {
-	@Override
-	public int getDefaultColor()
-	{
-		return 0xFF0000;
-	}
-
 	@Override
 	public PartPipe newPipe(ItemStack stack, EntityPlayer player, World world, BlockPos pos, int arg4, Vector3 arg5)
 	{
-		return new PartEnergyPipe();
+		return new PartFluidPipe();
 	}
 
 	@Override
@@ -32,8 +26,8 @@ public class ItemPartEnergyPipe extends ItemPartPipe
 	{
 		super.addInformation(stack, world, list, flag);
 		EnumPipeTier tier = getTier(stack);
-		list.add(Translator.translate("lore.mechanimation.energy_pipe"));
-		list.add(Translator.format("lore.mechanimation.energy.capacity", tier.maxPower));
-		list.add(Translator.format("lore.mechanimation.energy.transfer", 20 * tier.maxPowerTransfer));
+		list.add(Translator.format("lore.mechanimation.fluid_pipe"));
+		list.add(Translator.format("lore.mechanimation.fluid.capacity", tier.maxFluid));
+		list.add(Translator.format("lore.mechanimation.fluid.transfer", 20 * tier.maxFluidTransfer));
 	}
 }
