@@ -2,6 +2,6 @@
 <effects>
     <bone name="main">
         <item name="item" rX="90.0" rY="180.0" rotation="euler_zyx" scale="0.5" slot="0" tY="0.328125" transformType="FIXED"/>
-        <fluid index="0" margin="2.4414062E-4" name="fluid" sizeX="0.5" sizeY="0.03125" sizeZ="0.375" tX="-0.25" tY="0.3125" tZ="-0.1875"/>
+        <mechanimation:fluid_or_gas index="0" margin="2.4414062E-4" name="fluid" sizeX="0.5" sizeY="0.03125" sizeZ="0.375" tX="-0.25" tY="0.3125" tZ="-0.1875"/>
     </bone>
 </effects>

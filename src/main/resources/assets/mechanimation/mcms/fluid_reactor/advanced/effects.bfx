@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <effects>
     <bone name="root">
-        <fluid index="0" margin="0.0" name="fluid_in_1" sizeX="0.18701172" sizeY="0.6245117" sizeZ="0.43701172" tX="-0.49975586" tY="2.4414062E-4" tZ="-0.21850586"/>
-        <fluid index="1" margin="0.0" name="fluid_in_2" sizeX="0.43701172" sizeY="0.6245117" sizeZ="0.18701172" tX="-0.21850586" tY="2.4414062E-4" tZ="-0.49975586"/>
-        <fluid index="2" margin="0.0" name="fluid_in_3" sizeX="0.43701172" sizeY="0.6245117" sizeZ="0.18701172" tX="-0.21850586" tY="2.4414062E-4" tZ="0.31274414"/>
-        <fluid index="3" margin="0.0" name="fluid_out" sizeX="0.18701172" sizeY="0.6245117" sizeZ="0.43701172" tX="0.31274414" tY="2.4414062E-4" tZ="-0.21850586"/>
+        <mechanimation:fluid_or_gas index="0" margin="0.0" name="fluid_in_1" sizeX="0.18701172" sizeY="0.6245117" sizeZ="0.43701172" tX="-0.49975586" tY="2.4414062E-4" tZ="-0.21850586"/>
+        <mechanimation:fluid_or_gas index="1" margin="0.0" name="fluid_in_2" sizeX="0.43701172" sizeY="0.6245117" sizeZ="0.18701172" tX="-0.21850586" tY="2.4414062E-4" tZ="-0.49975586"/>
+        <mechanimation:fluid_or_gas index="2" margin="0.0" name="fluid_in_3" sizeX="0.43701172" sizeY="0.6245117" sizeZ="0.18701172" tX="-0.21850586" tY="2.4414062E-4" tZ="0.31274414"/>
+        <mechanimation:fluid_or_gas index="3" margin="0.0" name="fluid_out" sizeX="0.18701172" sizeY="0.6245117" sizeZ="0.43701172" tX="0.31274414" tY="2.4414062E-4" tZ="-0.21850586"/>
     </bone>
 </effects>

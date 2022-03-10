@@ -8,7 +8,6 @@ import firemerald.mechanimation.api.capabilities.Capabilities;
 import firemerald.mechanimation.tileentity.machine.base.fluids.FluidCapWrapper;
 import firemerald.mechanimation.tileentity.machine.base.fluids.IFluidGuiMachine;
 import firemerald.mechanimation.tileentity.machine.base.fluids.IFluidInventory;
-import firemerald.mechanimation.tileentity.machine.base.fluids.IFluidMachine;
 import firemerald.mechanimation.util.EnumFace;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.EnumFacing;
@@ -16,7 +15,7 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 import net.minecraftforge.fluids.capability.IFluidHandler;
 
-public abstract class TileEntityFluidMachineBase<T extends TileEntityFluidMachineBase<T, R>, R> extends TileEntityMachineBase<T, R> implements IFluidMachine<T>, IFluidGuiMachine<T>
+public abstract class TileEntityFluidMachineBase<T extends TileEntityFluidMachineBase<T, R>, R> extends TileEntityMachineBase<T, R> implements IFluidGuiMachine<T>
 {
 	@SuppressWarnings("unchecked")
 	private final IFluidHandler[] facedFluidHandlers = new IFluidHandler[] {

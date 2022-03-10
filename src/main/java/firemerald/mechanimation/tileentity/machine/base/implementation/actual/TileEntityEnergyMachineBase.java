@@ -7,7 +7,6 @@ import javax.annotation.Nullable;
 import firemerald.mechanimation.tileentity.machine.base.energy.EnergyCapWrapper;
 import firemerald.mechanimation.tileentity.machine.base.energy.IEnergyGuiMachine;
 import firemerald.mechanimation.tileentity.machine.base.energy.IEnergyInventory;
-import firemerald.mechanimation.tileentity.machine.base.energy.IEnergyMachine;
 import firemerald.mechanimation.util.EnumFace;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.EnumFacing;
@@ -15,7 +14,7 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.energy.CapabilityEnergy;
 import net.minecraftforge.energy.IEnergyStorage;
 
-public abstract class TileEntityEnergyMachineBase<T extends TileEntityEnergyMachineBase<T, R>, R> extends TileEntityMachineBase<T, R> implements IEnergyMachine<T>, IEnergyGuiMachine<T>
+public abstract class TileEntityEnergyMachineBase<T extends TileEntityEnergyMachineBase<T, R>, R> extends TileEntityMachineBase<T, R> implements IEnergyGuiMachine<T>
 {
 	@SuppressWarnings("unchecked")
 	private final IEnergyStorage[] facedEnergyHandlers = new IEnergyStorage[] {

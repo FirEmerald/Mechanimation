@@ -2,24 +2,23 @@ package firemerald.mechanimation.tileentity.machine.base.fluids;
 
 import javax.annotation.Nonnull;
 
-import firemerald.api.mcms.util.IFluidStackProvider;
 import firemerald.mechanimation.api.crafting.FluidOrGasStack;
 import firemerald.mechanimation.api.tileentity.IFluidTankInfo;
+import firemerald.mechanimation.mcms.IFluidOrGasStackProvider;
 import firemerald.mechanimation.tileentity.machine.base.IMachine;
 import mekanism.api.gas.Gas;
 import mekanism.api.gas.GasStack;
 import mekanism.api.gas.IGasHandler;
 import net.minecraft.util.EnumFacing;
-import net.minecraftforge.fluids.FluidStack;
 
-public interface IFluidMachine<T extends IFluidMachine<T>> extends IFluidStackProvider, IMachine, IGasHandler
+public interface IFluidMachine<T extends IFluidMachine<T>> extends IFluidOrGasStackProvider, IMachine, IGasHandler
 {
 	public IFluidInventory<T> getFluidInventory();
 
 	@Override
-	public default FluidStack getFluidStack(int index)
+	public default FluidOrGasStack getFluidStack(int index)
 	{
-		return getFluidInventory().getFluidStack(index);
+		return getFluidInventory().getFluidOrGas(index);
 	}
 
 	@Override

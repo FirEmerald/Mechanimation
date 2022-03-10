@@ -372,7 +372,6 @@ public abstract class FluidOrGasStack
 			return new FluidStackWrapper(newStack);
 		}
 
-
 		@Override
 		public String getContentsName()
 		{
@@ -524,7 +523,6 @@ public abstract class FluidOrGasStack
 			stack.amount -= i;
 			return new GasStackWrapper(newStack);
 		}
-
 
 		@Override
 		public String getContentsName()
