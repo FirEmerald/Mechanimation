@@ -1,4 +1,4 @@
-package firemerald.mechanimation.compat;
+package firemerald.api.core;
 
 import net.minecraftforge.fml.common.versioning.ArtifactVersion;
 

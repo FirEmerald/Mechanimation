@@ -2,7 +2,7 @@ package firemerald.api.mcms.math;
 
 import org.joml.Quaterniond;
 
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 
 public interface IRotation
 {

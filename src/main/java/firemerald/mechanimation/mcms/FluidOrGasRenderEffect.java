@@ -4,8 +4,8 @@ import javax.annotation.Nullable;
 
 import org.lwjgl.opengl.GL11;
 
+import firemerald.api.data.AbstractElement;
 import firemerald.api.mcms.animation.Transformation;
-import firemerald.api.mcms.data.AbstractElement;
 import firemerald.api.mcms.model.IEditableParent;
 import firemerald.api.mcms.model.IRigged;
 import firemerald.api.mcms.model.RenderBone;

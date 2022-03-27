@@ -6,7 +6,7 @@ import org.joml.Vector3d;
 import org.joml.Vector3f;
 
 import firemerald.api.mcms.MCMSAPI;
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 import firemerald.api.mcms.math.EulerXYZRotation;
 import firemerald.api.mcms.math.EulerZYXRotation;
 import firemerald.api.mcms.math.IRotation;

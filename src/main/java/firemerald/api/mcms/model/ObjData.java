@@ -25,9 +25,9 @@ import org.joml.Vector3f;
 import org.joml.Vector4d;
 import org.joml.Vector4f;
 
+import firemerald.api.data.FileUtil;
 import firemerald.api.mcms.MCMSAPI;
 import firemerald.api.mcms.math.MathUtils;
-import firemerald.api.mcms.util.FileUtil;
 
 public class ObjData
 {

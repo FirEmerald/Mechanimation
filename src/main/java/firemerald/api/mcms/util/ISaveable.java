@@ -1,6 +1,6 @@
 package firemerald.api.mcms.util;
 
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 
 public interface ISaveable
 {

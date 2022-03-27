@@ -12,7 +12,9 @@ import com.google.common.collect.MapMaker;
 
 import firemerald.api.mcms.MCMSAPI;
 import firemerald.api.mcms.animation.IAnimation;
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
+import firemerald.api.data.FileUtil;
+import firemerald.api.data.ResourceLoader;
 import firemerald.api.mcms.model.ObjData;
 import firemerald.api.mcms.model.ObjModel;
 import firemerald.api.mcms.model.ObjModel.Client;

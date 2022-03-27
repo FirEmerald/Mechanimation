@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 import org.joml.Matrix4d;
 
 import firemerald.api.mcms.animation.Transformation;
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 import firemerald.api.mcms.model.effects.BoneEffect;
 import firemerald.api.mcms.util.MCMSUtil;
 import net.minecraft.client.renderer.GlStateManager;

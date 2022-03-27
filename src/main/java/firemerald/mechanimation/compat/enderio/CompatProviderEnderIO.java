@@ -1,7 +1,7 @@
 package firemerald.mechanimation.compat.enderio;
 
+import firemerald.api.core.CompatProviderBase;
 import firemerald.api.core.IFMLEventHandler;
-import firemerald.mechanimation.compat.CompatProviderBase;
 import net.minecraftforge.fml.common.versioning.DefaultArtifactVersion;
 
 public class CompatProviderEnderIO extends CompatProviderBase

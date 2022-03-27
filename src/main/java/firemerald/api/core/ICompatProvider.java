@@ -1,8 +1,7 @@
-package firemerald.mechanimation.compat;
+package firemerald.api.core;
 
 import javax.annotation.Nullable;
 
-import firemerald.api.core.IFMLEventHandler;
 import net.minecraftforge.fml.common.ModContainer;
 import net.minecraftforge.fml.common.versioning.ArtifactVersion;
 

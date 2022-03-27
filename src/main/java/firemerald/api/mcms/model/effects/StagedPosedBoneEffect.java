@@ -3,7 +3,7 @@ package firemerald.api.mcms.model.effects;
 import javax.annotation.Nullable;
 
 import firemerald.api.mcms.animation.Transformation;
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 import firemerald.api.mcms.model.RenderBone;
 
 public abstract class StagedPosedBoneEffect extends PosedBoneEffect

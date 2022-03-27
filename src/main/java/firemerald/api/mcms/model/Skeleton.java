@@ -11,7 +11,7 @@ import javax.annotation.Nullable;
 import org.joml.Matrix4d;
 
 import firemerald.api.mcms.animation.Transformation;
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 import firemerald.api.mcms.model.Bone.Actual;
 
 public class Skeleton implements IRigged<Skeleton, Bone.Actual>

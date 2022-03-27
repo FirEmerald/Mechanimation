@@ -9,11 +9,11 @@ import org.apache.logging.log4j.Logger;
 
 import firemerald.api.core.CoreModMainClass;
 import firemerald.api.core.IChunkLoader;
+import firemerald.api.core.ICompatProvider;
 import firemerald.api.core.IFMLEventHandler;
 import firemerald.api.mcms.MCMSAPI;
 import firemerald.mechanimation.client.ClientProxy;
 import firemerald.mechanimation.common.CommonProxy;
-import firemerald.mechanimation.compat.ICompatProvider;
 import firemerald.mechanimation.compat.forgemultipart.CompatProviderForgeMultipart;
 import firemerald.mechanimation.compat.galacticraft.core.CompatProviderGalacticraftCore;
 import firemerald.mechanimation.compat.galacticraft.planets.CompatProviderGalacticraftPlanets;

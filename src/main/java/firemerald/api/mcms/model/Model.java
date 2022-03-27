@@ -11,7 +11,7 @@ import javax.annotation.Nullable;
 import org.joml.Matrix4d;
 
 import firemerald.api.mcms.animation.Transformation;
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 import firemerald.api.mcms.util.RaytraceResult;
 
 public abstract class Model<M extends Model<M, T>, T extends Bone<T>> implements IModel<M, T>

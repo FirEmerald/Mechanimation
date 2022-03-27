@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
 import firemerald.api.data.PartiallyLoadedInputStream;
-import firemerald.api.mcms.util.ResourceLoader;
+import firemerald.api.data.ResourceLoader;
 import firemerald.mechanimation.api.MechanimationAPI;
 import net.minecraft.util.ResourceLocation;
 

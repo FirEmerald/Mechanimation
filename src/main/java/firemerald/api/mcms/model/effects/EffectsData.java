@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 import firemerald.api.mcms.model.IModel;
 import firemerald.api.mcms.model.RenderBone;
 import firemerald.api.mcms.util.ISaveable;

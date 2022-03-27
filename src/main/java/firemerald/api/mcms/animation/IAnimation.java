@@ -5,7 +5,7 @@ import java.util.Map;
 
 import org.joml.Matrix4d;
 
-import firemerald.api.mcms.data.AbstractElement;
+import firemerald.api.data.AbstractElement;
 import firemerald.api.mcms.model.Bone;
 import firemerald.api.mcms.model.IRigged;
 import firemerald.api.mcms.model.ITransformsProvider;

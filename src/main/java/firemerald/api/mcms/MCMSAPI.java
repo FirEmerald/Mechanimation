@@ -32,9 +32,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class MCMSAPI
 {
 	public static final Logger LOGGER = LogManager.getLogger("MCMS");
-	public static final String JOML_VERSION = "1.9.25";
+	public static final String JOML_VERSION = "1.10.4";
     public static final String JOML_URL = "https://repo1.maven.org/maven2/org/joml/joml/" + JOML_VERSION + "/joml-" + JOML_VERSION + ".jar";
-    public static final byte[] JOML_MD5 = fromHex("2f245d9f01c38a9e42668a203d48ab4d");
+    public static final byte[] JOML_MD5 = fromHex("2C810112C86EDD972853EB37AED752D0");
     private static boolean init = false;
     public static final String API_VERSION = "0.2.0";
     public static boolean isViveCraft = false;
