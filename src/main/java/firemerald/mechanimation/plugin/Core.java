@@ -1,17 +1,12 @@
 package firemerald.mechanimation.plugin;
 
 import java.io.File;
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.apache.commons.lang3.ArrayUtils;
 
 import com.google.common.collect.Lists;
 import com.google.common.eventbus.EventBus;
 
-import firemerald.api.core.plugin.ITransformer;
 import firemerald.api.core.plugin.URLArtifactVersion;
 import firemerald.mechanimation.Main;
 import net.minecraftforge.fml.client.FMLFileResourcePack;
@@ -19,7 +14,6 @@ import net.minecraftforge.fml.client.FMLFolderResourcePack;
 import net.minecraftforge.fml.common.DummyModContainer;
 import net.minecraftforge.fml.common.LoadController;
 import net.minecraftforge.fml.common.ModMetadata;
-import net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer;
 import net.minecraftforge.fml.common.versioning.ArtifactVersion;
 import net.minecraftforge.fml.common.versioning.DefaultArtifactVersion;
 
@@ -56,23 +50,6 @@ public class Core extends DummyModContainer
     {
         super(METADATA);
         instance = this;
-		if (ITransformer.IS_DEOBFUSCATED) //fix a crash
-		{
-			try
-			{
-				Field f = DeobfuscationTransformer.class.getDeclaredField("EXEMPT_DEV");
-				f.setAccessible(true);
-	            Field modifiersField = Field.class.getDeclaredField( "modifiers" );
-	            modifiersField.setAccessible( true );
-	            modifiersField.setInt(f, f.getModifiers() & ~Modifier.FINAL);
-				f.set(null, ArrayUtils.add((String[]) f.get(null), "mekanism.common.integration."));
-			}
-			catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e)
-			{
-				e.printStackTrace();
-				System.exit(0);
-			}
-		}
     }
 
     @Override
