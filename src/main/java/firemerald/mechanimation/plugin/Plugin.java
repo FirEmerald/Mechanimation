@@ -20,7 +20,7 @@ import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.TransformerExclusions
 public class Plugin implements IFMLLoadingPlugin, IFMLCallHook
 {
     public static final String MC_VERSION = "[1.12.2]";
-    public static final String MECHANIMATION_VERSION = "[0.0.0]";
+    public static final String MECHANIMATION_VERSION = "[0.0.7]";
 
     private File location;
 

@@ -1,6 +1,7 @@
 package firemerald.mechanimation.items;
 
 import firemerald.mechanimation.api.MechanimationAPI;
+import firemerald.mechanimation.client.model.armor.ModelPlayerArmor;
 import firemerald.mechanimation.init.MechanimationTabs;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
@@ -17,15 +18,15 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ItemCarbonFiberArmor extends ItemArmor
 {
 	@SideOnly(Side.CLIENT)
-	public static ModelBiped modelLeggings, modelArmor;
+	public static ModelPlayerArmor modelLeggings, modelArmor;
 	public static final ArmorMaterial MATERIAL = EnumHelper.addArmorMaterial("CARBON_FIBER", MechanimationAPI.MOD_ID + ":carbon_fiber", 10, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0F);
 
 	static
 	{
 		if (FMLCommonHandler.instance().getSide().isClient())
 		{
-	        modelLeggings = new ModelBiped(0.125F);
-	        modelArmor = new ModelBiped(0.5F);
+	        modelLeggings = new ModelPlayerArmor(0.125F);
+	        modelArmor = new ModelPlayerArmor(0.5F);
 		}
 	}
 
