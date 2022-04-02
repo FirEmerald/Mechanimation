@@ -3,6 +3,7 @@ package firemerald.mechanimation.client;
 import java.util.ArrayList;
 import java.util.List;
 
+import firemerald.api.mcms.animation.Transformation;
 import firemerald.api.mcms.client.renderers.TileEntityRendererModel;
 import firemerald.api.mcms.model.effects.BoneEffect;
 import firemerald.api.mcms.model.effects.EffectRenderStage;
@@ -10,6 +11,7 @@ import firemerald.mechanimation.api.MechanimationAPI;
 import firemerald.mechanimation.client.boneeffect.EffectAssemblyDisplay;
 import firemerald.mechanimation.common.CommonProxy;
 import firemerald.mechanimation.config.ClientConfig;
+import firemerald.mechanimation.mcms.FluidOrGasRenderEffect;
 import firemerald.mechanimation.tileentity.machine.base.implementation.actual.TileEntityMachineBase;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
@@ -48,6 +50,11 @@ public class ClientProxy extends CommonProxy
 	public void onInitialization(FMLInitializationEvent event)
     {
 		super.onInitialization(event);
+		BoneEffect.registerBoneType(new ResourceLocation(MechanimationAPI.MOD_ID, "fluid_or_gas"), (parent, element) -> {
+			BoneEffect bone = new FluidOrGasRenderEffect(element.getString("name", "unnamed fluid"), parent, new Transformation(), 0);
+			bone.loadFromXML(element);
+			return bone;
+		});
 		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityMachineBase.class, new TileEntityRendererModel<>());
     }
 

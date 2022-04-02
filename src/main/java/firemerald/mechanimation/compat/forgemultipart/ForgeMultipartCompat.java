@@ -28,6 +28,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ForgeMultipartCompat implements IFMLEventHandler
 {
@@ -84,12 +85,14 @@ public class ForgeMultipartCompat implements IFMLEventHandler
 	}
 	
     @SubscribeEvent
+    @SideOnly(Side.CLIENT)
     public void registerItemColors(ColorHandlerEvent.Item event)
     {
     	MultipartItems.registerColors(event.getItemColors());
     }
 
     @SubscribeEvent
+    @SideOnly(Side.CLIENT)
     public void onTextureStitchPre(TextureStitchEvent.Pre event)
     {
 		TextureMap map = event.getMap();
@@ -102,6 +105,7 @@ public class ForgeMultipartCompat implements IFMLEventHandler
     }
 
 	@SubscribeEvent
+    @SideOnly(Side.CLIENT)
 	public void onTextureStitchPost(TextureStitchEvent.Post event)
 	{
 		TextureMap map = event.getMap();

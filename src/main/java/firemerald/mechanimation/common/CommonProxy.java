@@ -18,8 +18,6 @@ import org.lwjgl.opengl.Display;
 import firemerald.api.core.IProxy;
 import firemerald.api.core.plugin.ITransformer;
 import firemerald.api.core.plugin.URLArtifactVersion;
-import firemerald.api.mcms.animation.Transformation;
-import firemerald.api.mcms.model.effects.BoneEffect;
 import firemerald.mechanimation.Main;
 import firemerald.mechanimation.api.MechanimationAPI;
 import firemerald.mechanimation.api.capabilities.Capabilities;
@@ -33,7 +31,6 @@ import firemerald.mechanimation.init.MechanimationFluids;
 import firemerald.mechanimation.init.MechanimationParticles;
 import firemerald.mechanimation.init.MechanimationStats;
 import firemerald.mechanimation.init.MechanimationTabs;
-import firemerald.mechanimation.mcms.FluidOrGasRenderEffect;
 import firemerald.mechanimation.networking.client.MechanimationParticleSpawnPacket;
 import firemerald.mechanimation.networking.client.ServerSettingsSyncPacket;
 import firemerald.mechanimation.networking.client.TileGUIPacket;
@@ -324,11 +321,6 @@ public class CommonProxy implements IProxy
 	@Override
     public void onInitialization(FMLInitializationEvent event)
     {
-		BoneEffect.registerBoneType(new ResourceLocation(MechanimationAPI.MOD_ID, "fluid_or_gas"), (parent, element) -> {
-			BoneEffect bone = new FluidOrGasRenderEffect(element.getString("name", "unnamed fluid"), parent, new Transformation(), 0);
-			bone.loadFromXML(element);
-			return bone;
-		});
 		CraftingLoader.initLoaders();
 		MechanimationParticles.registerParticleTypes();
     	Capabilities.register();
